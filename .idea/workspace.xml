@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f15977cb-59ac-4c4a-bc46-b5f8f0feb360" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Line4_Additional/Lesson_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/l_08_09_2020.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/l_08_09_2020/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +30,26 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Application.Lesson_1 (1)">
+  <component name="RunManager" selected="Application.Lesson_1 (2)">
     <configuration name="Lesson_1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Line3.Lesson_1" />
       <module name="Line" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Line3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lesson_1 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Line4_Additional.Lesson_1" />
+      <module name="Line" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Line4_Additional.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson_1 (2)" />
         <item itemvalue="Application.Lesson_1 (1)" />
         <item itemvalue="Application.Lesson_1" />
       </list>
@@ -98,21 +104,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600857169917">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600858300124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600857169917" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600857169917">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600858300124" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600858300124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600857169917" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600857169917">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600858300124" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600858300124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600857169917" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600857169917">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600858300124" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600858300124">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600857169917" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600858300124" />
   </component>
 </project>
