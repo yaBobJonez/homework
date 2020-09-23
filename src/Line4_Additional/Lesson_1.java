@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Lesson_1 {
     public static void main(String[] args) {
+        System.out.println("Введите любое целое число:");
         int num = new Scanner(System.in).nextInt();
         char[] chars = String.valueOf(num).toCharArray();
         String rev = "";
