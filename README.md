@@ -1,11 +1,12 @@
 # Проекты Java по Информатике
 
-branch      | что содержит
-------------|---------------------------------
-master      | Линейные програмы
-Conditional | Разветвление
-Loops       | Циклы
-Eclipse     | Домашнее задание (в Eclipse IDE)
+Что? | Где?
+----|----
+Линейные задачи | [Linear](https://github.com/yaBobJonez/Homework/tree/master/Linear/src)
+Условные / Ветвление | [Conditional](https://github.com/yaBobJonez/Homework/tree/master/Conditional/src)
+Циклы | [Loops](https://github.com/yaBobJonez/Homework/tree/master/Loops/src)
+
+_Утилиты_: написанный мной класс Utils будет сделан общим для всех проектов и собран в отдельный .jar в будущем.
 
 ### Для одноклассников ;)
 
