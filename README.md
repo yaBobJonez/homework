@@ -6,7 +6,8 @@
 Условные / Ветвление | [Conditional](https://github.com/yaBobJonez/Homework/tree/master/Conditional/src)
 Циклы | [Loops](https://github.com/yaBobJonez/Homework/tree/master/Loops/src)
 
-_Утилиты_: написанный мной класс Utils будет сделан общим для всех проектов и собран в отдельный .jar в будущем.
+**Утилиты**: 10/17/2020 я создал Maven библиотеку с классами для ввода, вывода, кастинга, и системных утилит!
+**[yaBobJonez/SharedUtils](https://github.com/yaBobJonez/SharedUtils)**
 
 ### Для одноклассников ;)
 
