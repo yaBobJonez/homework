@@ -1,10 +1,10 @@
 package Recursion2;
 
-import SharedUtils.Utils;
+import yaBobJonez.Input;
 
 public class Main {
     public static void main(String[] args) {
-        int num = Utils.input("Введите число:").asInt();
+        int num = Input.inputInt("Введите число:");
         System.out.println("Сума цифр: " + sumOfDigits(num));
     }
     public static int sumOfDigits(int n){

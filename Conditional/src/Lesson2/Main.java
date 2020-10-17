@@ -1,6 +1,6 @@
 package Lesson2;
 
-import SharedUtils.Input;
+import yaBobJonez.Input;
 
 public class Main {
     public static void main(String[] args) {

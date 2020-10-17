@@ -1,16 +1,29 @@
 package RecursionAdditional1;
 
-import SharedUtils.Utils;
+import yaBobJonez.Control;
+import yaBobJonez.Input;
+import yaBobJonez.Output;
 
 public class Main {
     public static void main(String[] args) {
-        int n = Utils.input("Введите число:").asInt();
-        System.out.println((isPowerOf2(n) == 1)? "Это число есть степенью двойки." : "Не являеться степенью двойки.");
+        /*int n = Input.inputInt("Введите число:");
+        System.out.println((isPowerOf2(n) == 1)? "Это число есть степенью двойки." : "Не являеться степенью двойки.");*/
+    	test();
     }
     public static int isPowerOf2(int num){
-        int temp = num / 2;
-        if(temp == 1) return 0;
-        else if(temp == 2) return 1;
-        else return isPowerOf2(temp);
+        if(num == 2) return 1;
+        else if(num % 2 != 0) return 0;
+        return isPowerOf2(num / 2);
+    }
+    
+    //Тесты (2..32)
+    public static void test(){
+    	int[] values = new int[31];
+    	for(int i = 2; i <= 32; i++) values[i-2] = i;
+    	for(int i : values){
+    		if(i == 2 || i == 4 || i == 8 || i == 16 || i == 32){
+    			if(isPowerOf2(i) != 1){ System.err.print("Провал"); System.exit(1); } else continue;
+    		} if(isPowerOf2(i) != 0){ System.err.print("Провал"); System.exit(1); } else continue;
+    	} Output.print("Успешно.");
     }
 }
