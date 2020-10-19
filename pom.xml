@@ -16,10 +16,5 @@
     </plugins>
   </build>
   <dependencies>
-  	<dependency>
-  	  <groupId>yabobjonez</groupId>
-  	  <artifactId>sharedutils</artifactId>
-  	  <version>1.0.0</version>
-  	</dependency>
   </dependencies>
 </project>
