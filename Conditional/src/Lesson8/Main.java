@@ -1,7 +1,6 @@
 package Lesson8;
 
-import SharedUtils.Input;
-import SharedUtils.Output;
+import yaBobJonez.Input;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,7 +8,6 @@ public class Main {
             //Без сохранения переменной
             int num = Input.inputInt("Введите число:");
             System.out.println((num % 2 == 0)? "Чётное число." : "Нечётное число.");
-
             //С сохранением переменной
             int b = Input.inputInt("Введите число:");
             String s = (b % 2 == 0)? "Чётное число." : "Нечётное число.";

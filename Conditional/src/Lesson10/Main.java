@@ -1,8 +1,6 @@
 package Lesson10;
 
-import SharedUtils.Input;
-
-import java.util.ArrayList;
+import yaBobJonez.Input;
 
 public class Main {
     public static void main(String[] args) {
