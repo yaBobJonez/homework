@@ -4,7 +4,7 @@
   <artifactId>homework</artifactId>
   <version>3.0.0</version>
   <build>
-    <sourceDirectory>Conditional/src</sourceDirectory>
+    <sourceDirectory>Loops/src</sourceDirectory>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -16,5 +16,17 @@
     </plugins>
   </build>
   <dependencies>
+    <dependency>
+  	  <groupId>yabobjonez</groupId>
+  	  <artifactId>sharedutils</artifactId>
+  	  <version>2.1.0</version>
+	</dependency>
   </dependencies>
+  <repositories>
+      <repository>
+        <id>github</id>
+        <name>GitHub yaBobJonez Apache Maven Packages</name>
+        <url>https://maven.pkg.github.com/yabobjonez/sharedutils</url>
+      </repository>
+    </repositories>
 </project>
