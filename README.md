@@ -6,8 +6,8 @@
 Условные / Ветвление | [Conditional](https://github.com/yaBobJonez/Homework/tree/master/Conditional/src)
 Циклы | [Loops](https://github.com/yaBobJonez/Homework/tree/master/Loops/src)
 
-**Утилиты**: 10/17/2020 я создал Maven библиотеку с классами для ввода, вывода, кастинга, и системных утилит!
-**[yaBobJonez/SharedUtils](https://github.com/yaBobJonez/SharedUtils)**
+**Maven зависимости**: 10/20/2020 проект перенесен на Apache Maven, и требует библиотеки:
+**[Инструкции по использовании и проверке проекта](https://github.com/yaBobJonez/Homework/blob/master/MavenInstructions.md)**
 
 ### Для одноклассников ;)
 
