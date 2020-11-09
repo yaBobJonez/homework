@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69dd8cc2-ecc6-44ec-b348-4e1dc5852cbe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Arrays/src/Array_Input/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Arrays/src/Array_max/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,20 +55,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Average.Main" />
-      <module name="Loops" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Average.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MinMax.Main" />
       <module name="Loops" />
@@ -122,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_max.Main" />
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array_max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -180,22 +179,22 @@
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
     <state x="578" y="301" width="744" height="522" key="FileChooserDialogImpl/0.34.1920.1046@0.34.1920.1046" timestamp="1603270059440" />
-    <state width="952" height="281" key="GridCell.Tab.0.bottom" timestamp="1604491133446">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1604928558459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604491133446" />
-    <state width="952" height="281" key="GridCell.Tab.0.center" timestamp="1604491133445">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604928558459" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1604928558459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604491133445" />
-    <state width="952" height="281" key="GridCell.Tab.0.left" timestamp="1604491133445">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604928558459" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1604928558459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604491133445" />
-    <state width="952" height="281" key="GridCell.Tab.0.right" timestamp="1604491133446">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604928558459" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1604928558459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="952" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604491133446" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604928558459" />
     <state x="443" y="134" width="1024" height="851" key="SettingsEditor" timestamp="1603270062712">
       <screen x="0" y="34" width="1920" height="1046" />
     </state>
