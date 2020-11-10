@@ -11,7 +11,8 @@ public class Main {
         }
         int max = 154,  min = 186;
         int nMax = 0, nMin = 0;
-        int sum = 0, middle;
+        int sum = 0;
+        double middle;
         for( int i = 0; i < 15; i++){
             if(arr1[i] > max){
                 max = arr1[i];
@@ -23,10 +24,11 @@ public class Main {
             }
             sum += arr1[i];
         }
-        middle = sum / 15;
+        middle = sum / 15.0;
+        System.out.println(sum);
         //for(int i : arr1) System.out.println("["+i+"]");
-        System.out.println("Максимальный рост " + max + " см на " + nMax + "месте.");
-        System.out.println("Минимальный рост " + min + " см на " + nMin + "месте.");
+        System.out.println("Максимальный рост " + max + " см на " + nMax + " месте.");
+        System.out.println("Минимальный рост " + min + " см на " + nMin + " месте.");
         System.out.println("Средний рост " + middle + " см.");
     }
 }
