@@ -8,6 +8,7 @@
 	<classpathentry kind="src" path="Conditional/src"/>
 	<classpathentry kind="src" path="Linear/src"/>
 	<classpathentry kind="src" path="Loops/src"/>
+	<classpathentry kind="src" path="Arrays/src"/>
 	<classpathentry exported="true" kind="lib" path="sharedutils-2.1.0.jar"/>
 	<classpathentry kind="output" path="Conditional/out/production/ifElse"/>
 </classpath>
