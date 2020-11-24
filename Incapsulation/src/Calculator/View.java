@@ -1,16 +1,14 @@
 package Calculator;
 
+import java.text.DecimalFormat;
+
 public class View {
-    public void display(int res){
-        System.out.println(res);
+    public static void display(double res){
+    	String formatted = new DecimalFormat("0.########").format(res);
+    	System.out.println(formatted);
     }
-    public void display(double res){
-        System.out.println(res);
-    }
-    public void display(String mes, int res){
-        System.out.println(mes + res);
-    }
-    public void display(String mes, double res){
-        System.out.println(mes + res);
+    public static void display(String mes, double res){
+        String formatted = new DecimalFormat("0.########").format(res);
+    	System.out.println(mes + formatted);
     }
 }
