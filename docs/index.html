@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>10-A WeekChecker</title>
+	</head>
+	<body>
+		<h1 style="color: #0000ff;">10-A, на Этой Неделе:</h1>
+		<p style="color: #ff6600;"><strong>Вторник: <div id="Tue"></div></strong></p>
+		<p style="color: #ff6600;"><strong>Пятница: <div id="Fri"></div></strong></p>
+		<p style="color: #999999;">ya_Bob_Jonez &copy; 2020</p>
+		<script>
+			function getMonday(d) {
+				var diff = d.getDate() - d.getDay() + (d.getDay() === 0 ? -6 : 1);
+				return new Date(d.setDate(diff)).getDate();
+			}
+			var mon = getMonday(new Date());
+			var tue = mon % 2 == 0? "История Украины" : "Захист";
+			var fri = mon % 2 == 0? "География" : "Химия";
+			document.getElementById("Tue").innerHTML = tue;
+			document.getElementById("Fri").innerHTML = fri;
+		</script>
+	</body>
+</html>
