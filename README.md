@@ -7,6 +7,7 @@ _Минимум JDK 11 требуеться_
 Линейные задачи | [Linear](https://github.com/yaBobJonez/Homework/tree/master/Linear/src)
 Условные / Ветвление | [Conditional](https://github.com/yaBobJonez/Homework/tree/master/Conditional/src)
 Циклы | [Loops](https://github.com/yaBobJonez/Homework/tree/master/Loops/src)
+ООП | [Incapsulation](https://github.com/yaBobJonez/Homework/tree/master/Incapsulation/src)
 
 **Внимание**: проект требует библиотеку [SharedUtils](https://github.com/yaBobJonez/SharedUtils) для работы. Версия 2.1.0 включена.
 
