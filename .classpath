@@ -10,6 +10,8 @@
 	<classpathentry kind="src" path="Loops/src"/>
 	<classpathentry kind="src" path="Arrays/src"/>
 	<classpathentry kind="src" path="Incapsulation/src"/>
+	<classpathentry kind="src" path="Inheritance/src"/>
+	<classpathentry kind="src" path="Interfaces/src"/>
 	<classpathentry exported="true" kind="lib" path="sharedutils-2.1.0.jar"/>
 	<classpathentry kind="output" path="Conditional/out/production/ifElse"/>
 </classpath>

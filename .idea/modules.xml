@@ -8,6 +8,11 @@
       <module fileurl="file://$PROJECT_DIR$/Incapsulation/Incapsulation.iml" filepath="$PROJECT_DIR$/Incapsulation/Incapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Linear/Linear.iml" filepath="$PROJECT_DIR$/Linear/Linear.iml" />
       <module fileurl="file://$PROJECT_DIR$/Loops/Loops.iml" filepath="$PROJECT_DIR$/Loops/Loops.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/Incapsulation/Incapsulation.iml" filepath="$PROJECT_DIR$/Incapsulation/Incapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+>>>>>>> 9b503606ad0b5880e86114d168afd92033107c49
     </modules>
   </component>
 </project>

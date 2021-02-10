@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fff7c85a-7152-4253-9de7-186e51e1f809" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/BuildingAHouse/House$Door.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/BuildingAHouse/House.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/BuildingAHouse/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Calculator/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Calculator/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Calculator/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Calculator/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Calendar1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/EckhelTest/Banana.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/EckhelTest/BananaPeeler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/EckhelTest2/Leaf.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/EckhelsFlower/Flower.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/FractionsCalculator/Calculator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/FractionsCalculator/Fraction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/FractionsCalculator/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/FractionsCalculator/View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/GregorianCalendarClass/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_26Task1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_26Task1/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_7Task1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_7Task1/Parallelepiped$UnavailableSurface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_7Task1/Parallelepiped.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_7Task3/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HW1_7Task3/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HWThisMethod/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HWThisMethod/MyClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/HomeworkCalendar/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance/Mammal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance/Reptile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance_fields/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance_fields/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Inheritance_fields/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Modifiers/pack1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Modifiers/pack1/Pack1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Modifiers/pack2/Pack2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Modifiers/pack2/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverloadedStringMethods/HomeworkFindAllOccurances.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverloadedStringMethods/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverridingObject/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverridingObject/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverridingObject/Penguin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverridingObject/Swallow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/OverridingToString/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_1Task1/Developer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_1Task1/Junior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_1Task1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_1Task1/Senior.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_2Task1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_2Task1/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_2Task1/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/PW2_2Task1/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Parallelepiped/Display.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Parallelepiped/Evaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Parallelepiped/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Parallelepiped/Parallelepiped.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Personel/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Personel/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Polymorphism/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Polymorphism/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Polymorphism/Ostrich.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Polymorphism/Penguin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Polymorphism/Swallow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Polymorphism/Unknown.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Registration/Human.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Statics/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Super2/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Super2/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Super2/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/SuperKeyword/A.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/SuperKeyword/B.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/SuperKeyword/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/ThisKeyword/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/ThisKeyword/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/UserClass/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/UserClass/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/Vyazovik/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/EckhelTest/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/EckhelTest/BananaPeeler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/EckhelTest2/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/Registration/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/ThisKeyword/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/ThisKeyword/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Incapsulation/src/Vyazovik/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/EckhelsFlower/Flower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HW1_26Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HW1_26Task1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HW1_7Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HW1_7Task1/Parallelepiped.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HW1_7Task3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HW1_7Task3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HWThisMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/HWThisMethod/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/OverridingObject/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/OverridingObject/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/OverridingObject/Penguin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/OverridingObject/Swallow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/OverridingToString/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_1Task1/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_1Task1/Junior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_1Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_1Task1/Senior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_2Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_2Task1/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_2Task1/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/PW2_2Task1/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/Personel/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/Personel/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/Polymorphism/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/Super2/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/Super2/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/Super2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/SuperKeyword/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/SuperKeyword/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Inheritance/src/SuperKeyword/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JavaFX11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstraction/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/Firefighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/Paramedic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/ToolKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/TrainEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HW2_8Task1/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lesson91/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MediaTestWin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional/out/production/ifElse/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional/out/production/ifElse/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/Incapsulation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Incapsulation/Incapsulation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Objects1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Incapsulation/src/Objects1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack1/ArithmeticProgression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack1/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack1/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack2/CherkaKirovo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack2/Population.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack2/ZhytoVinny.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Incapsulation/src/Packages/Pack3/VinnyCherkaKirovo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/BuildingAHouse/House$Door.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/BuildingAHouse/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/BuildingAHouse/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Incapsulation/Calculator/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Calendar1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/FractionsCalculator/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/FractionsCalculator/Fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/FractionsCalculator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/FractionsCalculator/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/GregorianCalendarClass/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/HomeworkCalendar/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/HomeworkMVC/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/HomeworkMVC/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/HomeworkMVC/Model.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/HomeworkMVC/View.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance/Mammal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance/Reptile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance_fields/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance_fields/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Inheritance_fields/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/META-INF/Incapsulation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Modifiers/pack1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Modifiers/pack1/Pack1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Modifiers/pack2/Pack2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Modifiers/pack2/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Objects1/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../out/production/Incapsulation/Objects1/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/OverloadedStringMethods/HomeworkFindAllOccurances.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/OverloadedStringMethods/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack1/ArithmeticProgression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack1/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack2/CherkaKirovo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack2/Population.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack2/ZhytoVinny.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack3/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Packages/Pack3/VinnyCherkaKirovo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Parallelepiped/Display.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Parallelepiped/Evaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Parallelepiped/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Parallelepiped/Parallelepiped.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Statics/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Task_Circle/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/Task_Circle/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/UserClass/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/Incapsulation/UserClass/User.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Lesson91/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/MediaTestWin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Lesson91/Main.java" />
+        <option value="$PROJECT_DIR$/src/MediaTestWin.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Interfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Interfaces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lesson91" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612947923652" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javafx-sdk-11.0.2/lib/javafx.web.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MediaTestWin">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson91.Main" />
+      <module name="Interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson91.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediaTestWin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MediaTestWin" />
+      <module name="Interfaces" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MediaTestWin" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fff7c85a-7152-4253-9de7-186e51e1f809" name="Default Changelist" comment="" />
+      <created>1612942224436</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612942224436</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Lesson91/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MediaTestWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Interfaces</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JavaFX11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

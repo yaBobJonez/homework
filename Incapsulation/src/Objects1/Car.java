@@ -1,8 +1,6 @@
 package Objects1;
 
-import java.io.Serializable;
-
-public class Car implements Serializable {
+public class Car {
     public String model;
     public String manufacturer;
     public String color;
