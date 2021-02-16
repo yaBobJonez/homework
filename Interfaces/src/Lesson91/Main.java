@@ -29,6 +29,8 @@ public class Main {
         catz.sort((o1, o2) ->  {
                 return o1.age - o2.age;
         }); catz.add(new Gatto("a.", -1));
+        catz.sort(new SomethingThatCompares());
+        System.out.println(catz);
     }
     private static void printArray(int[] arr){
         for(int el : arr) System.out.print(el + " ");
@@ -55,4 +57,10 @@ class Gatto implements Comparable<Gatto>{
     public String toString() {
         return "Gatto[name = " + name + ", age = " + age + "]";
     }
+}
+class SomethingThatCompares implements Comparator<Gatto>{
+    @Override
+    public int compare(Gatto o1, Gatto o2) {
+        return o2.name.compareTo(o1.name);
+    } //Обратная сортировка (Descending order)
 }
