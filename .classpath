@@ -13,6 +13,7 @@
 	<classpathentry kind="src" path="Inheritance/src"/>
 	<classpathentry kind="src" path="Interfaces/src"/>
 	<classpathentry kind="src" path="Exceptions/src"/>
+	<classpathentry kind="src" path="IO/src"/>
 	<classpathentry exported="true" kind="lib" path="sharedutils-2.1.0.jar"/>
-	<classpathentry kind="output" path="Conditional/out/production/ifElse"/>
+	<classpathentry kind="output" path="out"/>
 </classpath>
