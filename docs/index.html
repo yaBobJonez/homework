@@ -16,7 +16,7 @@
 			}
 			var mon = getMonday(new Date());
 			var tue = mon % 2 != 0? "Всемирная История" : "Захист";
-			var fri = mon % 2 != 0? "География" : "Химия";
+			var fri = mon % 2 == 0? "География" : "Химия";
 			document.getElementById("Tue").innerHTML = tue;
 			document.getElementById("Fri").innerHTML = fri;
 		</script>
