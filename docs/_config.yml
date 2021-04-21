@@ -1,0 +1,9 @@
+title: 10AHub
+description: "Рас(с)писание, информатика, и другие материалы для 10-А класса ;)"
+baseurl: "/10-A"
+url: "https://yaBobJonez.github.io"
+
+remote_theme: pmarsceill/just-the-docs
+footer_content: "<a href=\"https://opensource.org/faq#copyleft\">Copyleft</a> &#127279; 2021 yaBobJonez. Распространяется как <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png\"/></a>. Спасибо Minecraft, Глютамату Натрия, Java Swing xD"
+last_edit_timestamp: true
+last_edit_time_format: "@ %m/%d/%Y %l:%M %p"
