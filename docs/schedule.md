@@ -8,8 +8,15 @@ has_toc: false
 
 ## 10-A, на Этой Неделе:
 
-<p style="color: #ff6600;"><strong>Вторник: <div id="Tue"></div></strong></p>
-<p style="color: #ff6600;"><strong>Пятница: <div id="Fri"></div></strong></p>
+**Вторник:** 
+{: .text-blue-100 }
+<div id="Tue">LdErr</div>
+{: .text-yellow-300 }
+
+**Пятница:** 
+{: .text-blue-100 }
+<div id="Fri">LdErr</div>
+{: .text-yellow-300 }
 
 <script>
 	function getMonday(d) {
