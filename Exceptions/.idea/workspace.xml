@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1ba1ed50-02a7-4a70-bf70-93147e9c2fc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PW3_17Task1/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PW3_17Task2/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PW3_17Task3/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PW3_17Task4/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PW3_17Task5/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PW3_17Task6/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Components/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Exception1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Exception1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Exception2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Exception2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Exception3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Exception3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exceptions/Exception5/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Exceptions4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Exceptions/Exceptions4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/General/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Technical/Component.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Technical/DefaultIcon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Technical/Wrapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/Testing/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/UI/NITButtonUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Exceptions/UI/NITLaF.class" beforeDir="false" />
-    </list>
+    <list default="true" id="1ba1ed50-02a7-4a70-bf70-93147e9c2fc8" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,22 +136,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614698324911" />
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1615981041745">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom" timestamp="1615981238781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615981041745" />
-    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1615981041745">
+    <state width="1877" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615981238781" />
+    <state width="1877" height="277" key="GridCell.Tab.0.center" timestamp="1615981238781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615981041745" />
-    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1615981041744">
+    <state width="1877" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615981238781" />
+    <state width="1877" height="277" key="GridCell.Tab.0.left" timestamp="1615981238781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615981041744" />
-    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1615981041745">
+    <state width="1877" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615981238781" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right" timestamp="1615981238781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615981041745" />
+    <state width="1877" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615981238781" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1615979032133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
