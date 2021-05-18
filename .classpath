@@ -17,6 +17,7 @@
 	<classpathentry kind="src" path="IO/src"/>
 	<classpathentry kind="src" path="JavaFX/src"/>
 	<classpathentry kind="src" path="JFXTest/src"/>
-	<classpathentry exported="true" kind="lib" path="sharedutils-2.1.0.jar"/>
+	<classpathentry kind="src" path="Strings/src"/>
+	<classpathentry kind="lib" path="/home/michael/eclipse-workspace/Homework/sharedutils-2.1.0.jar"/>
 	<classpathentry kind="output" path="out"/>
 </classpath>

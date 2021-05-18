@@ -24,7 +24,7 @@ has_toc: false
 		return new Date(d.setDate(diff)).getDate();
 	}
 	var mon = getMonday(new Date());
-	var tue = mon % 2 != 0? "Всемирная История" : "Захист";
+	var tue = mon % 2 == 0? "Всемирная История" : "Захист";
 	var fri = mon % 2 == 0? "География" : "Химия";
 	document.getElementById("Tue").innerHTML = tue;
 	document.getElementById("Fri").innerHTML = fri;
