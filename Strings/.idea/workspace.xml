@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3a36f8a-1b6f-4bab-97db-286ea7e33990" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PW5_18Task1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PW5_18Task1/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PW5_19Tasks/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PW5_19Tasks/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PW5_19Tasks/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PW5_19Tasks/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VarArgs_01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VarArgs_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VarArgs_03/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Strings/String_03PW/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Strings/String_03PW/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Strings.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +45,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sharedutils-2.1.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main4">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_02.Main" />
+      <option name="MAIN_CLASS_NAME" value="VarArgs_03.Main" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_02.*" />
+          <option name="PATTERN" value="VarArgs_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_03PW.Main" />
+    <configuration name="Main1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PW5_19Tasks.Main1" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_03PW.*" />
+          <option name="PATTERN" value="PW5_19Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="String_01.Main" />
+    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PW5_19Tasks.Main2" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="String_01.*" />
+          <option name="PATTERN" value="PW5_19Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PW5_18Task1.Main1" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PW5_19Tasks.Main3" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PW5_18Task1.*" />
+          <option name="PATTERN" value="PW5_19Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PW5_18Task1.Main2" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PW5_19Tasks.Main4" />
       <module name="Strings" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PW5_18Task1.*" />
+          <option name="PATTERN" value="PW5_19Tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main4" />
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main2 (1)" />
+        <item itemvalue="Application.Main1 (1)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -150,25 +157,49 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1621255501841" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1621351883771">
+    <state x="666" y="262" key="FileChooserDialogImpl" timestamp="1621423536773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621351883771" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1621351883771">
+    <state x="666" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621423536773" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1621426164640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621351883771" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1621351883771">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1621426164640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621351883771" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1621351883771">
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1621426164640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621351883771" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1621256683957">
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1621426164640">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621256683957" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1621426164640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1621426164640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1621426164640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1621426164640">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1621426164640" />
+    <state x="440" y="95" key="SettingsEditor" timestamp="1621423855380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621423855380" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1621422037602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621422037602" />
   </component>
 </project>
