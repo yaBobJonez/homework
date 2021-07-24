@@ -2,7 +2,7 @@
 layout: default
 title: Расписание
 nav_order: 2
-description: "Информационный сайт 10-А класса."
+description: "Информационный сайт 11-А класса."
 has_toc: false
 ---
 
@@ -10,14 +10,15 @@ has_toc: false
 
 **Вторник:** 
 {: .text-blue-100 }
-<div id="Tue">LdErr</div>
+<div id="Tue">Щас лето,</div>
 {: .text-yellow-300 }
 
 **Пятница:** 
 {: .text-blue-100 }
-<div id="Fri">LdErr</div>
+<div id="Fri">отдыхайте))</div>
 {: .text-yellow-300 }
 
+<!--
 <script>
 	function getMonday(d) {
 		var diff = d.getDate() - d.getDay() + (d.getDay() === 0 ? -6 : 1);
@@ -29,4 +30,5 @@ has_toc: false
 	document.getElementById("Tue").innerHTML = tue;
 	document.getElementById("Fri").innerHTML = fri;
 </script>
+-->
 
