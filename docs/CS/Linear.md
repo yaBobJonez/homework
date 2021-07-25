@@ -2,6 +2,7 @@
 layout: default
 title: Основы
 nav_order: 1
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

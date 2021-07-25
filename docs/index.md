@@ -19,11 +19,15 @@ has_toc: false
 
 [Математика](math){: .btn }
 [Українська](ukr){: .btn }
+[Информатика (Java)](CS/index){: .btn }
 
-### Java (Ревизии)
+### Полезное
 
-[Содержание](CS/index){: .btn }
+[Сайт школы](https://school3.kyiv.ua/){: .btn }
+[E-учебники](https://lib.imzo.gov.ua/yelektronn-vers-pdruchnikv/11-klas/){: .btn }
 
+[HUMAN](https://lms.ev.systems/){: .btn }
+[Discord школы](https://discord.com/invite/kGnEk5U){: .btn }
 
 ##### Дополнить сайт
 

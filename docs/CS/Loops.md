@@ -2,6 +2,7 @@
 layout: default
 title: Циклы
 nav_order: 3
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

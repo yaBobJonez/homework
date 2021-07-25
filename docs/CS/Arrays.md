@@ -2,6 +2,7 @@
 layout: default
 title: Массивы
 nav_order: 4
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

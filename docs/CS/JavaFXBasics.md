@@ -2,6 +2,7 @@
 layout: default
 title: JavaFX (Основное)
 nav_order: 9
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

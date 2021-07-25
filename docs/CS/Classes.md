@@ -2,6 +2,7 @@
 layout: default
 title: ООП (Классы)
 nav_order: 6
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

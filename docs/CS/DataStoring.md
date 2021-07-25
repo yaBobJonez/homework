@@ -2,6 +2,7 @@
 layout: default
 title: Работа с Файлами
 nav_order: 8
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

@@ -2,6 +2,7 @@
 layout: default
 title: Условные программы
 nav_order: 2
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

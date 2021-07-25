@@ -2,6 +2,7 @@
 layout: default
 title: Команды Git
 nav_order: 10
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---

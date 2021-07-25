@@ -2,6 +2,7 @@
 layout: default
 title: Исключения
 nav_order: 7
+parent: Информатика (Java)
 description: "Курс Java на уроках Информатики."
 has_toc: false
 ---
