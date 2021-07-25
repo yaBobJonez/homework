@@ -6,7 +6,7 @@ description: "Информационный сайт 11-А класса."
 has_toc: false
 ---
 
-## 10-A, на Этой Неделе:
+## 11-A, на Этой Неделе:
 
 **Вторник:** 
 {: .text-blue-100 }
@@ -18,7 +18,7 @@ has_toc: false
 <div id="Fri">отдыхайте))</div>
 {: .text-yellow-300 }
 
-<!--
+<!-- Паша, что ты тут забыл?
 <script>
 	function getMonday(d) {
 		var diff = d.getDate() - d.getDay() + (d.getDay() === 0 ? -6 : 1);
