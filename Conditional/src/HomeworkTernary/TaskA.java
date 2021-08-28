@@ -1,6 +1,6 @@
 package HomeworkTernary;
 
-import yaBobJonez.Input;
+import Common.Input;
 
 public class TaskA {
 	public static void main(String[] args) {

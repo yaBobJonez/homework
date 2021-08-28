@@ -1,7 +1,7 @@
 package Divisors;
 
-import arrays.IntArray;
-import yaBobJonez.Input;
+import Common.IntArray;
+import Common.Input;
 
 public class Main {
     public static void main(String[] args) {

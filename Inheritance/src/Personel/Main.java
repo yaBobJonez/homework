@@ -1,6 +1,6 @@
 package Personel;
 
-import static yaBobJonez.Output.print;
+import static Common.Output.print;
 
 public class Main {
 	public static void main(String[] args) {

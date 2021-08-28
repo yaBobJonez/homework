@@ -1,7 +1,7 @@
 package Average;
 
-import yaBobJonez.Input;
-import yaBobJonez.Output;
+import Common.Input;
+import Common.Output;
 
 public class Main {
     public static void main(String[] args) {

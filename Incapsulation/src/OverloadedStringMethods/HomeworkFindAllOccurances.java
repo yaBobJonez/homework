@@ -1,6 +1,6 @@
 package OverloadedStringMethods;
 
-import yaBobJonez.Input;
+import Common.Input;
 
 public class HomeworkFindAllOccurances {
 	public static void main(String[] args) {

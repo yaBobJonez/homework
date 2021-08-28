@@ -1,6 +1,6 @@
 package Loop_Triangle;
 
-import yaBobJonez.Input;
+import Common.Input;
 
 public class Main {
     public static void main(String[] args) throws Exception {

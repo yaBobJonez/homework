@@ -1,8 +1,9 @@
 package Modifiers.pack1;
 
+import static Common.Output.print;
+
 import Modifiers.pack2.Pack2;
 import Modifiers.pack2.Parent;
-import static yaBobJonez.Output.print;
 
 public class Main extends Parent {
 	public static void main(String[] args) {

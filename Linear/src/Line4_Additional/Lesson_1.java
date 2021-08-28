@@ -1,6 +1,6 @@
 package Line4_Additional;
 
-import yaBobJonez.Input;
+import Common.Input;
 
 public class Lesson_1 {
     public static void main(String[] args) {

@@ -2,7 +2,7 @@ package Line2;
 
 //Получить трёхзначное число от пользователя, разделить его на разряды, и перевернуть.
 
-import yaBobJonez.Input;
+import Common.Input;
 
 public class Lesson_1 {
     public static void main(String[] args) throws Exception {

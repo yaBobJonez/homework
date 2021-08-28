@@ -1,6 +1,6 @@
 package Array_max;
 
-import yaBobJonez.General;
+import Common.General;
 
 public class Main {
     //Спонсируеться Артёмом(68%) & Мишей(32%)™

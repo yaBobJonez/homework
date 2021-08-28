@@ -1,6 +1,6 @@
 package Arrays_md_mas3;
 
-import yaBobJonez.General;
+import Common.General;
 
 public class Main {
     public static void main(String[] args) {

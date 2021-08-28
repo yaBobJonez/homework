@@ -1,7 +1,7 @@
 package Array_Input;
 
-import yaBobJonez.General;
-import yaBobJonez.Input;
+import Common.General;
+import Common.Input;
 
 public class Main {
     public static void main(String[] args) {

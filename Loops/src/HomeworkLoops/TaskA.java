@@ -1,7 +1,7 @@
 package HomeworkLoops;
 
-import yaBobJonez.Input;
-import yaBobJonez.Output;
+import Common.Input;
+import Common.Output;
 
 public class TaskA {
 	public static void main(String[] args) {
