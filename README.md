@@ -16,8 +16,6 @@ _Минимум JDK 11 требуется._
 Работа с Файлами | [IO](https://github.com/yaBobJonez/Homework/tree/master/IO/src)
 Основы JavaFX | [JavaFX](https://github.com/yaBobJonez/Homework/tree/master/JavaFX/src)
 
-**Внимание**: проект требует библиотеку [SharedUtils](https://github.com/yaBobJonez/SharedUtils) для работы. Версия 2.1.0 включена. _Зависимость в будущем будет устранена._
-
 ### Полезное
 
 - [**Помощь по Java ;)**](https://yabobjonez.github.io/Homework/CS/)
@@ -26,5 +24,5 @@ _Минимум JDK 11 требуется._
 
 ### Прочая информация
 
-- Этот репозиторий защищён лицензией [Unlicense](https://github.com/yaBobJonez/Homework/blob/master/LICENSE).
+- Этот репозиторий можно свободно использовать под условиями [Unlicense](https://github.com/yaBobJonez/Homework/blob/master/LICENSE).
 - ~~Реклама меня~~ [Другие мои проекты](https://github.com/yaBobJonez?tab=repositories)

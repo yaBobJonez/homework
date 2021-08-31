@@ -28,4 +28,5 @@ has_children: true
 ## Дополнительно:
 
 - [Git команды](Git)
+- [**Авторизация через Git**](GitTokens)
 - [~~Swing~~](#)
