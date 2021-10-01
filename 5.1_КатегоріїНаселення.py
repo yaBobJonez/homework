@@ -1,5 +1,5 @@
 age = int(input("Скільки вам років?\n> "))
-# Шкода, що тут немає switch ;(
+#EDIT: 3.10 - match
 if age < 6:
 	print("Ще не школяр.")
 elif age in range(6, 9):

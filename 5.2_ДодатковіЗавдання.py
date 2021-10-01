@@ -1,11 +1,12 @@
 from commons import commonMDI
 from time import sleep
+from sys import stderr
 
 def task1():
 	squifs = int(input("Кількість вивірок?\n> "))
 	nutz = int(input("Кількість горіхів?\n> "))
 	if nutz < squifs:
-		print("Е, горіхів замало, ти чьо?", file=sys.stderr) #raise Exception тут менш підходило б, я думаю...
+		print("Е, горіхів замало, ти чьо?", file=stderr) #raise Exception тут менш підходило б, я думаю...
 		exit()
 	print("Кожній білці — "+str(nutz//squifs), "| остача: "+str(nutz%squifs))
 def task2():
@@ -19,10 +20,10 @@ def task4():
 	aIncr, bIncr = [int(v) for v in input("Введіть <x y>:\n> ").split()]
 	joursPasses = 0
 	if aIncr <= bIncr:
-		print("Умова не може бути виконаною за таких значень.", file=sys.stderr)
+		print("Умова не може бути виконаною за таких значень.", file=stderr)
 		exit()
 	while a < b:
-		a += aIncr*100; b += bIncr*100 #"Не-Пайтоновська крапка з комою ;)
+		a += aIncr*100; b += bIncr*100 #Не-Пайтоновська крапка з комою ;)
 		joursPasses += 1
 	print("Відповідь: за {} днів.".format(joursPasses))
 def task5():
@@ -40,9 +41,22 @@ def task6():
 	"""
 	В одну посудину було налито 1 л молока, в іншу — 1 л води. З першої посудини у другу перелили склянку молока ємністю t мл, а потім таку ж склянку розчину, отриманого в другій посудині, перелили назад у першу. Скільки мілілітрів молока в результаті вийшло в розчинах з першої та другої посудин?
 	"""
-	pass # Ще не встиг зробити, але вже скоро.
+	a = {"Water": 0, "Milk": 1000}; b = {"Water": 1000, "Milk": 0}
+	t = int(input("Введіть об'єм склянки (ml):\n> "))
+	a["Milk"] -= t; b["Milk"] += t
+	perc = {"Water": b["Water"]/(b["Water"]+b["Milk"]), "Milk": b["Milk"]/(b["Water"]+b["Milk"])}
+	a["Water"] += t*perc["Water"]; a["Milk"] += t*perc["Milk"]
+	b["Water"] -= t*perc["Water"]; b["Milk"] -= t*perc["Milk"]
+	print("У першій посудині: {} ml води, {} ml молока.".format(round(a["Water"]), round(a["Milk"])))
+	print("У другій посудині: {} ml води, {} ml молока.".format(round(b["Water"]), round(b["Milk"])))
+def task7():
+	a, k, expected = [int(x) for x in input("Введіть <a k n>:\n> ").split()]
+	current = a**2/k
+	if current < expected:
+		print("Не вистачає {} m² на кожного Робінзона (всього не вистачає {} m²).".format(expected-current, (expected-current)*k), file=stderr)
+	else: print("Вистачає площі всім.")
 
-menu = ["1. Вивірки та горіхи", "2. Соціальні мережі", "3. Заробіток на YouTube", "4. Котлети :P", "5. A.distanceTo(B)", "0. Вийти"]
+menu = ["1. Вивірки та горіхи", "2. Соціальні мережі", "3. Заробіток на YouTube", "4. Котлети :P", "5. A.distanceTo(B)", "6. Молоко та вода", "7. Робінзони", "0. Вийти"]
 task = commonMDI.open(menu)
 if task != len(menu)-1:
 	locals()["task"+str(task+1)]()
