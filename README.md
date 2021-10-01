@@ -1,9 +1,9 @@
-# Проекты Python по Информатике
+# Проєкты Python з Інформатики
 
-_Минимум Python 3 требуется._
+_Мінімум Python 3 потребується._
 
 - Тут знаходяться всі задачі, виконані мною
-- `commons` це файл, загальний для декількох задач, що містить спільні та допоміжні шматки коду _(Виключення з Unlicense; розповсюджується під MIT License)_
+- `commons` — це файл, загальний для декількох задач, що містить спільні та допоміжні шматки коду _(Виключення з Unlicense; розповсюджується під MIT License)_
 - На репозиторії також збережені [Java проєкти](https://github.com/yaBobJonez/Homework/tree/java).
 
 ### Корисне
@@ -14,5 +14,5 @@ _Минимум Python 3 требуется._
 
 ### Інше
 
-- Файли цього репозиторію можна використовувати згідно з [Unlicense](https://github.com/yaBobJonez/Homework/blob/master/LICENSE).
+- Файли цього репозиторію можна використовувати згідно з [Unlicense](https://github.com/yaBobJonez/Homework/blob/python/LICENSE).
 - ~~Реклама мене~~ [Інші мої проєкти](https://github.com/yaBobJonez?tab=repositories)
