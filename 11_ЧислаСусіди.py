@@ -20,9 +20,9 @@ def task3():
 			print(arr[i], arr[i+1])
 def task4():
 	arr = [int(x) for x in input("Введіть послідовність чисел:\n> ").split()]
-	if all(i <= j for i, j in zip(arr, arr[1:])):
-		print("Послідовність неспадна.")
-	else: print("Послідовність спадна!")
+	if all(i > j for i, j in zip(arr, arr[1:])):
+		print("Послідовність спадна!")
+	else: print("Послідовність неспадна!")
 
 menu = ["1", "2", "3", "4", "Вийти"]
 task = commonMDI.open(menu)

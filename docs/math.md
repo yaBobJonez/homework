@@ -57,6 +57,10 @@ has_toc: true
 ![Wikipedia](img/mathDx1_2.png)
 ![Wikipedia](img/mathDx1_3.png)
 
+### Первісні деяких функцій
+
+![zno.academia.in.ua](img/mathAntidx.jpg)
+
 ### Корені тригонометричних функцій
 
 ![matemonline.com](img/mathRoot1.png)
