@@ -28,7 +28,7 @@ table {
 
 ## Расписание 11-A на Этой Неделе:
 
-<table style="width:100%;">
+<table>
 	<tr>
 		<th>N</th>
 		<th>Період</th>
@@ -43,83 +43,83 @@ table {
 		<td>8:30</td>
 		<td>Астро.</td>
 		<td>Фізика</td>
-		<td>Геометрія</td>
+		<td>—</td>
 		<td>Фізика</td>
-		<td>Інформат.</td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>2</td>
 		<td>9:25</td>
-		<td>Географ.</td>
-		<td>Іст. Укр.</td>
-		<td>Геометр.</td>
-		<td>Фізика</td>
-		<td>Інформат.</td>
+		<td>— (Гео)</td>
+		<td>—</td>
+		<td>—</td>
+		<td>— (Фіз)</td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>3</td>
 		<td>10:20</td>
-		<td>Хімія</td>
+		<td>— (Хім)</td>
 		<td>Іст. Укр.</td>
 		<td>Eng/Укр</td>
-		<td>Хімія</td>
-		<td>Укр. літ.</td>
+		<td>— (Хім)</td>
+		<td>Укр. мова (літ)</td>
 	</tr>
 	<tr>
 		<td>4</td>
 		<td>11:20</td>
 		<td>Алгебра</td>
-		<td>Біологія</td>
+		<td>Іст. Укр.</td>
 		<td>Eng/Укр</td>
-		<td>Заруб.</td>
-		<td>Укр. Літ.</td>
+		<td>Всесв.(Заруб)</td>
+		<td>Укр. мова (літ)</td>
 	</tr>
 	<tr>
 		<td>5</td>
 		<td>12:25</td>
 		<td>Алгебра</td>
-		<td>Русский</td>
-		<td>Інформат.</td>
-		<td><div id="Thu">Всесв./Зах.</div></td>
-		<td>Алгебра</td>
+		<td>—</td>
+		<td>—</td>
+		<td><div id="Thu">Всесв.</div></td>
+		<td>— (Алг)</td>
 	</tr>
 	<tr>
 		<td>6</td>
 		<td>13:20</td>
 		<td>Укр/Eng</td>
-		<td>Русский</td>
-		<td>Інформат.</td>
-		<td>Всесв.</td>
+		<td>—</td>
+		<td>Геометрія</td>
+		<td>— (Всв)</td>
 		<td>Алгебра</td>
 	</tr>
 	<tr>
 		<td>7</td>
 		<td>14:10</td>
 		<td>Укр/Eng</td>
-		<td>Фіз–ра</td>
-		<td>Фіз–ра</td>
-		<td>Вальс</td>
-		<td>Біологія</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>8</td>
 		<td>15:00</td>
-		<td>Захист</td>
-		<td>Інформат.</td>
 		<td>—</td>
-		<td>Фітнес</td>
 		<td>—</td>
+		<td></td>
+		<td>—</td>
+		<td></td>
 	</tr>
 </table>
 
 <!-- Паша, что ты тут забыл? -->
-<script>
+<!--<script>
 	function getMonday(d) {
 		var diff = d.getDate() - d.getDay() + (d.getDay() === 0 ? -6 : 1);
 		return new Date(d.setDate(diff)).getDate();
 	}
 	var mon = getMonday(new Date());
-	var thu = mon % 2 == 0? "Всесвітня Історія" : "Захист";
+	var thu = mon % 2 == 0? "Всесв." : "Захист";
 	document.getElementById("Thu").innerHTML = thu;
-</script>
+</script>-->
 
