@@ -1,142 +1,147 @@
 ---
 layout: default
-title: JavaFX (Основное)
-nav_order: 9
-parent: Информатика (Java)
-description: "Курс Java на уроках Информатики."
+title: JavaFX (Вступ)
+nav_order: 12
+parent: Інформатика (Java)
+description: "Курс Java на уроках Інформатики."
 has_toc: false
 ---
 
 # JavaFX
 
-JavaFX это набор инструментов (точнее, библиотека), разработанный Oracle как отдельный проект (с JDK 11), для лёгкого создания GUI (Графического Интерфейса) с хорошим дизайном. Графическо-функциональные компоненты называются _контролами_ (или "виджетами"), например: кнопки, текстовые поля, слайдеры, и т.д. FX также включает в себя и примитивные фигуры, такие как квадрат или круг, и технические возможности (изменять курсор, дизайн окна программы, открытие и выбор файлов).
+_JavaFX_ — це бібліотека (навіть _фреймворк_), розроблена Oracle як окремий проєкт (починаючи з Java 11) для легкого створення доволі гарного та сучасного, функціонального _GUI_ (графічного інтерфейсу користувача). Елементи інтерфейсу (кнопки, текстові поля, повзунки тощо) називаються _контролами_, або _віджетами_. Окрім них, в JavaFX можна малювати примітивні фігури (квадрат, круг тощо), або навіть 3D графіку. Звичайно, є й технічні можливості, такі як зміна курсору, діалоги для вибору файлів, створення і дизайн вікон програми та багато іншого.
 
-_Заметка:_ на компьютере можно навести курсором на изображение для описания.
+Бібліотека складається з модулів, що описані нижче. Залежно від їх використання, необхідно дописувати їх через кому в `--add-modules=`.
 
-### Установка и настройка
+- `javafx.controls` -> Графічні контроли (основний модуль)
+- `javafx.fxml` -> Для роботи з FXML файлами
+- `javafx.media` -> Відео й аудіо плеєри
+- `javafx.web` -> Вбудований браузер на базі WebKit
+- `javafx.swing` -> Для інтеграції JavaFX зі Swing
 
-Для начала нужно скачать JavaFX SDK с [официального сайта](https://gluonhq.com/products/javafx/). Затем, распаковать архив в любое свободное место. Далее, добавте библиотеку в `modulepath`/`classpath` вашей IDE. Начиная с Java 9 многие проекты имеют "модулярную структуру", поэтому не достаточно просто подключить их к IDE. Необходимо, в настройках (конфигурации) запуска, в `VM аргументах`/`VM опциях` написать `--module-path="<путь_к_JavaFX_SDK/lib>"`, а затем добавить там же необходимые модули: `--add-modules=<названия_модулей_через_запятые>`, список ниже.
+## Початок роботи
 
-- `javafx.controls` -> Общие контролы, основной модуль
-- `javafx.fxml` -> Для работы с FXML файлами
-- `javafx.media` -> Видео и аудио плееры и файлы
-- `javafx.web` -> Встраивание примитивного браузера (на основе WebKit)
-- `javafx.swing` -> Для интеграции JavaFX со Swing'ом
+_Фреймворком_ (англ. фундамент) називається бібліотека, на основі якої будують програми. До таких відноситься й JavaFX, тому основний клас кожної програми (Main) на ньому має наслідувати клас javafx.application.`Application`. У методі `main(String[] args)` потрібно викликати лише один метод Application.`launch(String[] args)`, який зробить всю складну роботу щодо створення вікна та запуску нового потоку програми з базовими налаштуваннями, тобто підготує програму. Для самого коду є три методи (в порядку їх виконання):
 
-### Начало создания GUI
+1. `init()`, у якому відбувається ініціалізація
+2. `start(Stage stage)`, у якому пишуть майже весь (або весь) код
+3. `stop()`, у якому роблять "очистку", завершальні дії за необхідності
 
-![Понятия Stage, Scene, и Node](https://hsto.org/webt/4g/e1/uo/4ge1uolcdkwkxcsdont6cnytgto.png)
+![Поняття Stage, Scene і Node](https://hsto.org/webt/4g/e1/uo/4ge1uolcdkwkxcsdont6cnytgto.png)
 
-Для начала, создавая новый файл `.java`, нужно расширить/наследовать класс javafx.application.`Application`. В методе `main(String[] args)` достаточно вызвать один метод `launch(String[] args)`, который подготовит и запустит программу автоматически с базовыми настройками. Сам дизайн и функционал нужно задавать в методе `public void start(Stage stage)`_*_, перезаписав его. Как видно на фото, `Stage` это окно программы, а `Scene` это его содержимое. Это "содержимое" должно иметь в себе основной "контейнер", например `Pane`. Также, можно поставить заголовок окна, и после всего этого открыть само окно:
+Далі потрібно розібратись із структурою графічної програми: як видно на зображенні, `Stage` — це _вікно програми_ (у даному випадку одне основне вікно), а `Scene` — це об'єкт, у якому знаходиться весь графічний _контент_ програми (всі контроли). Клас `Node` являє собою будь-який _контрол_ або _контейнер_. Можна здогадатися, що _контейнерами_ називають контроли, які вміщують в себе й розташовують інші контроли, наприклад, контейнером є HBox (горизонтальна коробка), яка розташовує свої _дочірні Node_ горизонтально за порядком. Основний _батьківський контейнер_ для всіх елементів (корінь) називається _Root (Node)_. Найпростішим контейнером є _панель_ (`Pane`), яку ми й візьмемо. Далі змінимо назву вікна (заголовок, методом `setTitle(String)`) і покажемо це вікно на екрані:
 
 ```java
-public class Main extends Application{
-    @Override
-    public void start(Stage stage){
-        Pane pane = new Pane();
-        Scene scene = new Scene(pane, 640, 480); //640x480 это размер окна, в данном случае VGA.
-        stage.setTitle("Заголовок здесь");
-        stage.setScene(scene);
-        stage.show();
-    }
-    public static void main(String[] args) {
-        launch();
-    }
+public class Main extends Application {
+	@Override
+	public void start(Stage stage) {
+		Pane pane = new Pane();
+		Scene scene = new Scene(pane, 640, 480);
+		stage.setScene(scene);
+		stage.setTitle("Назва вікна");
+		stage.show();
+	}
+	public static void main(String[] args) {
+		launch(args);
+	}
 }
 ```
+Це і буде шаблоном для JavaFX програми. Числа 640 та 480 — це розмір контенту вікна у пікселях, тобто 640x480 (VGA). Взагалі, створювати інтерфейс у JavaFX можна двома способами: або через FXML — формат файлів розмітки GUI у вигляді XML, або просто через код. У шкільній програмі використовували перший спосіб, який також дає змогу створювати дизайн інтерфейсу у візуальному редакторі [Scene Builder](https://gluonhq.com/products/scene-builder/), а потім просто підключити його. Такий принцип розробки називають [MVC](https://uk.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%D1%8C-%D0%B2%D0%B8%D0%B4-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%B5%D1%80), детальніше у Wikipedia.
 
-*существуют и другие методы, `init()` и `stop()`, но они используются редко, поэтому здесь не рассматриваются.
+## Ресурси для вивчення
 
-Создавать интерфейс можно двумя способами: через FXML, или кодом. В школьной программе рассматривался первый способ, который подразумевает собой создание GUI в визуальном редакторе, а затем подключая его. Так как JavaFX имеет очень много возможностей, я не могу делать так много объяснений, поэтому далее находятся просто примеры возможностей JavaFX, используя второй способ, вручную, чистым кодом.
+На жаль, бібліотека JavaFX є дуже великою та багатофункціональною темою, тому я не можу давати стільки роз'яснень. Якщо Ви зацікавленні у створенні гарних графічних програм на Java (або просто з Вас вимагає цього шкільна програма xD), то краще пошукайте додаткову інформацію в Інтернеті. Я можу порекомендувати такі джерела: [code.makery (Укр)](https://code.makery.ch/uk/library/javafx-tutorial/), [Jenkov Tutorials](https://jenkov.com/tutorials/javafx/index.html), [Tutorials Point](https://www.tutorialspoint.com/javafx/index.htm) і [JavaTpoint (Англ)](https://www.javatpoint.com/javafx-tutorial).
 
-### Контролы
+Нижче також приведені _мої власні приклади можливостей JavaFX_ зі знімками екрана, але написані чистим кодом (без FXML).
 
-![Некоторые контролы](https://i.imgur.com/3MtMndX.png)
-![Те же контроллы](https://i.imgur.com/NPtN3MJ.png)
+### Контроли
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/ControlsTest.java)
-- Модули: `javafx.controls`
+![Деякі часто використовувані контроли](https://i.imgur.com/3MtMndX.png)
+![Ті ж, але зі зміненими станами](https://i.imgur.com/NPtN3MJ.png)
 
-### Фигуры
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/ControlsTest.java)
+- Модулі: `javafx.controls`
 
-![Стандартные и самодельные фигуры](https://i.imgur.com/ItAQ71q.png)
+### Фігури 2D
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/GeometryTest.java)
-- Модули: `javafx.controls`
+![Стандартні та намальовані вручну](https://i.imgur.com/ItAQ71q.png)
 
-### Фигуры 3D
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/GeometryTest.java)
+- Модулі: `javafx.controls`
 
-![3D графика в JFX](https://i.imgur.com/HJSy8l7.png)
+### Фігури 3D
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/Geom3DTest.java)
-- Модули: `javafx.controls`
+![3D графіка в JFX](https://i.imgur.com/HJSy8l7.png)
 
-### "Разметка" программы, или контейнеры
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/Geom3DTest.java)
+- Модулі: `javafx.controls`
 
-![Табличная разметка](https://i.imgur.com/WgCx7ej.png)
+### Розмітка та шрифти
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/LayoutTextTest.java)
-- Модули: `javafx.controls`
+![Табличний контейнер (GridPane)](https://i.imgur.com/WgCx7ej.png)
 
-### Графики, диаграммы, или визуализация данных
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/LayoutTextTest.java)
+- Модулі: `javafx.controls`
 
-![Различные схемы, с эффектами](https://i.imgur.com/oi7jOaC.png)
+### Діаграми та ефекти
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/ChartsEffectsTest.java)
-- Модули: `javafx.controls`
+![Візуалізація даних з ефектами](https://i.imgur.com/oi7jOaC.png)
 
-### Анимации
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/ChartsEffectsTest.java)
+- Модулі: `javafx.controls`
 
-![Некоторые анимации](https://i.imgur.com/UaDAcZw.png)
-![Вращение, изменение цвета, и движение](https://i.imgur.com/WuPkXu8.png)
+### Анімації
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/AnimationsTest.java)
-- Модули: `javafx.controls`
+![Деякі анімації](https://i.imgur.com/UaDAcZw.png)
+![Повертання, зміна кольору і рух](https://i.imgur.com/WuPkXu8.png)
 
-### `Scene`: обработка изображений, курсор, диалоги
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/AnimationsTest.java)
+- Модулі: `javafx.controls`
 
-![Фото лапы кота :3, его фрагменты](https://i.imgur.com/cTldOCa.png)
-![Диалог-"алерт"](https://i.imgur.com/C9WW8jZ.png)
+### Scene, обробка зображень та діалоги
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/SceneTest.java)
-- Модули: `javafx.controls`
+![Фото лапи кота та його фрагменти](https://i.imgur.com/cTldOCa.png)
+![Діалог підтвердження з кнопками](https://i.imgur.com/C9WW8jZ.png)
 
-### `Stage`: работа с окнами, монитором, выбор файлов
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/SceneTest.java)
+- Модулі: `javafx.controls`
 
-![Прозрачность окна, стиль](https://i.imgur.com/eMddt5F.png)
-![Окно-утилита](https://i.imgur.com/oPRYKRV.png)
-![Диалог выбора файла](https://i.imgur.com/siMrw0F.png)
+### Stage, робота з монітором, вибір файлів
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/StagesTest.java)
-- Модули: `javafx.controls`
+![Вікно зі зміненою прозорістю та стилем](https://i.imgur.com/eMddt5F.png)
+![Вікно-утиліта](https://i.imgur.com/oPRYKRV.png)
+![Діалог вибору файлу](https://i.imgur.com/siMrw0F.png)
 
-### События JFX
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/StagesTest.java)
+- Модулі: `javafx.controls`
 
-![Перемещение круга мышкой, нажатие ПКМ для изменения цвета, создание квадратиков нажатием на клавиатуре](https://i.imgur.com/2vQHtJ5.png)
+### Події (Events)
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/EventsTest.java)
-- Модули: `javafx.controls`
+![Рух кружечка за курсором, натискання ПКМ для зміни кольору, створення квадратиків натисканням клавіші](https://i.imgur.com/2vQHtJ5.png)
 
-### Аудио и видео
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/EventsTest.java)
+- Модулі: `javafx.controls`
 
-![Видео со звуком](https://i.imgur.com/e5Xg2zy.png)
-![Это же видео, далее](https://i.imgur.com/9yan166.png)
+### Аудіо й відео
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/MediaTest.java)
-- Модули: `javafx.controls`, `javafx.media`
+![Відео зі звуком](https://i.imgur.com/e5Xg2zy.png)
+![Це ж відео (керування з клавіатури)](https://i.imgur.com/9yan166.png)
 
-### Холст (`Canvas`) и буфер обмена
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/MediaTest.java)
+- Модулі: `javafx.controls`, `javafx.media`
 
-![Простая программа для рисования](https://i.imgur.com/f9K1scu.png)
+### Полотно (Canvas) та робота з буфером обміну
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/CanvasClipboardTest.java)
-- Модули: `javafx.controls`
+![Саморобна програма для малювання](https://i.imgur.com/f9K1scu.png)
 
-### Браузер (встраиваемый WebKit компонент)
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/CanvasClipboardTest.java)
+- Модулі: `javafx.controls`
 
-![Google открыт в браузере](https://i.imgur.com/DkK5DSK.png)
-![Загрузка WarriorS Wiki](https://i.imgur.com/MmDk2co.png)
+### Браузер (рушій — WebKit)
 
-- [Код для исследования](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/WebTest.java)
-- Модули: `javafx.controls`, `javafx.web`
+![Google, кнопки історії та поле пошуку](https://i.imgur.com/DkK5DSK.png)
+![Сайт WarriorS Wiki](https://i.imgur.com/MmDk2co.png)
+
+- [Код для ознайомлення](https://github.com/yaBobJonez/Homework/blob/java/JFXTest/src/Test/WebTest.java)
+- Модулі: `javafx.controls`, `javafx.web`
 

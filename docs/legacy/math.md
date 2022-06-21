@@ -2,14 +2,16 @@
 layout: default
 title: Математика
 nav_order: 3
-description: "Формули й таблиці."
+description: "Формулы и таблицы."
 has_toc: true
+nav_exclude: true
+search_exclude: true
 ---
 
 # Математика
 {: .no_toc }
 
-Зміст:
+Содержание:
 {: .no_toc .text-delta }
 
 1. TOC
@@ -49,27 +51,27 @@ has_toc: true
 
 ### Таблиця тригонометричних функцій (0°–360°)
 
-![Фото від Еміля, однокласника](img/mathTrigTable.png)
+![Спасибо за фото Эмилю](../img/mathTrigTable.png)
 
 ### Похідні основних функцій
 
-![Фото Жанни Вікторівни](img/mathDx1.png)
-![Wikipedia](img/mathDx1_2.png)
-![Wikipedia](img/mathDx1_3.png)
+![Фото Жанны Викторовны](../img/mathDx1.png)
+![Wikipedia](../img/mathDx1_2.png)
+![Wikipedia](../img/mathDx1_3.png)
 
 ### Первісні деяких функцій
 
-![zno.academia.in.ua](img/mathAntidx.jpg)
+![zno.academia.in.ua](../img/mathAntidx.jpg)
 
 ### Корені тригонометричних функцій
 
-![matemonline.com](img/mathRoot1.png)
-![matemonline.com](img/mathRoot2.png)
-![matemonline.com](img/mathRoot3.png)
+![matemonline.com](../img/mathRoot1.png)
+![matemonline.com](../img/mathRoot2.png)
+![matemonline.com](../img/mathRoot3.png)
 
 ### "Великі формули" (~50)
 
-![Wikipedia](img/mathGreat1.png)
-![Wikipedia](img/mathGreat2.png)
-![Wikipedia](img/mathGreat3.png)
+![Wikipedia](../img/mathGreat1.png)
+![Wikipedia](../img/mathGreat2.png)
+![Wikipedia](../img/mathGreat3.png)
 

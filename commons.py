@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 2021 Mykhailo Stetsiuk
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,10 +25,8 @@ SOFTWARE.
 import curses
 """
 (Py)Commons
-— мікро-модуль, створений мною (Стецюк) для відділення великих
-або часто використовуваних функцій, загальних для будь-якої
-задачі. Використовується у власних скриптах, але можу дозволити
-використовувати й однокласникам за їх бажанням ;D
+— мікро-модуль, створений для легкого створення консольних
+Меню Інтерфейсів через ncurses.
 """
 class commonMDI(object):
 	@classmethod

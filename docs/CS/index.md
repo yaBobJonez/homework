@@ -1,32 +1,29 @@
 ---
 layout: default
-title: Информатика (Java)
+title: Інформатика (Java)
 nav_order: 5
-description: "Шо ты тут забыл, двоэчнык? Иди лучше на право!.."
+description: "Шо ти тут забув, двоєчнік? Йди краще на право!.."
 has_toc: false
 has_children: true
 ---
 
-# Информатика II, или Основы Java
+# Інформатика II, або Основи Java
 
-## Пройденный материал:
+1. [Встановлення JDK](Installation)
+2. [Знайомство з Java](Linear)
+3. [Розгалуження (умови)](Conditional)
+4. [Цикли](Loops)
+5. [Масиви](Arrays)
+6. [Функції](Functions)
+7. [ООП I (Класи)](Classes)
+8. [ООП II](Polymorphism)
+9. [Винятки (помилки)](Exceptions)
+10. [Робота з файлами й папками](DataStoring)
+11. [Вступ до бібліотек](Libraries)
+12. [JavaFX](JavaFXBasics)
 
-1. [Основы](Linear)
-2. [Ветвление (условия)](Conditional)
-3. [Циклы](Loops)
-4. [Массивы](Arrays)
-5. [Функции](Functions)
-6. [Классы (ООП)](Classes)
-7. [Исключения](Exceptions)
-8. [Работа с Файлами и Папками](DataStoring)
-9. [JavaFX](JavaFXBasics)
+## Додатково:
 
-## В прогрессе:
+- [Git команди](Git)
+- [Авторизація через Git](GitTokens)
 
-—
-
-## Дополнительно:
-
-- [Git команды](Git)
-- [**Авторизация через Git**](GitTokens)
-- [~~Swing~~](#)

@@ -1,35 +1,40 @@
 ---
 layout: default
-title: Главная
+title: Головна
 nav_order: 1
-description: "Информационный сайт 11-А класса."
+description: "Всяка допомога у школі."
 permalink: /
 has_toc: false
 ---
 
-# 11-A Hub
+# RevHub
 {: .fs-10 }
 
-Информационный сайт 11-А класса школы №3 города Киева.
+Деяка можливо корисна інформація та матеріали від випускника Спеціалізованої школи №3.
 {: .fs-5 }
 
-[Динамическое расписание](schedule){: .btn .btn-blue }
+Перекладена українською та перероблена версія. [Натисніть, щоб переглянути стару.](legacy)
+{: .fs-1 }
 
-### Материалы
+### Матеріали
 
 [Математика](math){: .btn .btn-purple }
 [Українська](ukr){: .btn .btn-purple }
-[Информатика (Java)](CS/index){: .btn .btn-purple }
-[~~Информатика (Python)~~](#){: .btn .btn-outline }
+[Інформатика (Java)](CS/index){: .btn .btn-purple }
 
-### Полезное
+### Корисне
 
-[Сайт школы](https://school3.kyiv.ua/){: .btn }
-[E-учебники](https://lib.imzo.gov.ua/yelektronn-vers-pdruchnikv/11-klas/){: .btn }
+[Сайт школи](https://school3.kyiv.ua/){: .btn }
+[HUMAN](https://lms.human.ua/app/home/){: .btn }
+[Discord школи](https://discord.com/invite/kGnEk5U){: .btn }
 
-[HUMAN](https://lms.ev.systems/){: .btn }
-[Discord школы](https://discord.com/invite/kGnEk5U){: .btn }
+[Підручники 10 клас](https://lib.imzo.gov.ua/yelektronn-vers-pdruchnikv/10-klas/){: .btn }
+[Підручники 11 клас](https://lib.imzo.gov.ua/yelektronn-vers-pdruchnikv/11-klas/){: .btn }
 
-##### Дополнить сайт
+##### Доробити цей сайт
 
-[Код сайта](https://github.com/yaBobJonez/Homework/tree/master/docs){: .btn }
+[Markdown файли](https://github.com/yaBobJonez/Homework/tree/python/docs){: .btn }
+
+Ви можете зробити копію (Fork) даного сайту, внести до неї зміни або додати щось, а потім відправити звернення з
+Вашими правками, щоб я міг їх додати (відкрити Pull request).
+

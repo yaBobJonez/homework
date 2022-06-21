@@ -4,6 +4,8 @@ title: Расписание
 nav_order: 2
 description: "Информационный сайт 11-А класса."
 has_toc: false
+nav_exclude: true
+search_exclude: true
 ---
 
 <head>
@@ -41,61 +43,61 @@ table {
 	<tr>
 		<td>1</td>
 		<td>8:30</td>
-		<td>Астро.</td>
-		<td>Фізика</td>
 		<td>—</td>
-		<td>Фізика</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
 		<td>—</td>
 	</tr>
 	<tr>
 		<td>2</td>
 		<td>9:25</td>
-		<td>— (Гео)</td>
 		<td>—</td>
 		<td>—</td>
-		<td>— (Фіз)</td>
+		<td>—</td>
+		<td>—</td>
 		<td>—</td>
 	</tr>
 	<tr>
 		<td>3</td>
 		<td>10:20</td>
-		<td>— (Хім)</td>
-		<td>Іст. Укр.</td>
-		<td>Eng/Укр</td>
-		<td>— (Хім)</td>
-		<td>Укр. мова (літ)</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>4</td>
 		<td>11:20</td>
-		<td>Алгебра</td>
-		<td>Іст. Укр.</td>
-		<td>Eng/Укр</td>
-		<td>Всесв.(Заруб)</td>
-		<td>Укр. мова (літ)</td>
+		<td>—</td>
+		<td>Когда-то</td>
+		<td>тут было</td>
+		<td>расписание</td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>5</td>
 		<td>12:25</td>
-		<td>Алгебра</td>
 		<td>—</td>
 		<td>—</td>
-		<td><div id="Thu">Всесв.</div></td>
-		<td>— (Алг)</td>
+		<td>—</td>
+		<td><div id="Thu">—</div></td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>6</td>
 		<td>13:20</td>
-		<td>Укр/Eng</td>
 		<td>—</td>
-		<td>Геометрія</td>
-		<td>— (Всв)</td>
-		<td>Алгебра</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
+		<td>—</td>
 	</tr>
 	<tr>
 		<td>7</td>
 		<td>14:10</td>
-		<td>Укр/Eng</td>
+		<td>—</td>
 		<td>—</td>
 		<td>—</td>
 		<td>—</td>
@@ -106,9 +108,9 @@ table {
 		<td>15:00</td>
 		<td>—</td>
 		<td>—</td>
-		<td></td>
 		<td>—</td>
-		<td></td>
+		<td>—</td>
+		<td>—</td>
 	</tr>
 </table>
 
