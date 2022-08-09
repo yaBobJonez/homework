@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Математика
-nav_order: 3
+nav_order: 2
 description: "Формули й таблиці."
 has_toc: true
 ---

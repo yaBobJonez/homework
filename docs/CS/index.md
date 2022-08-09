@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Інформатика (Java)
-nav_order: 5
+nav_order: 4
 description: "Шо ти тут забув, двоєчнік? Йди краще на право!.."
 has_toc: false
 has_children: true
