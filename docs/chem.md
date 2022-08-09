@@ -10,11 +10,11 @@ has_toc: false
 
 <table>
   <tr>
-    <th rowspan="2">Речовини</td>
-    <th colspan="3">Оксиди</td>
-    <th rowspan="2">Кислоти</td>
-    <th colspan="2">Основи</td>
-    <th rowspan="2">Солі</td>
+    <th rowspan="2">Речовини</th>
+    <th colspan="3">Оксиди</th>
+    <th rowspan="2">Кислоти</th>
+    <th colspan="2">Основи</th>
+    <th rowspan="2">Солі</th>
   </tr>
   <tr>
     <td>основні</td>
