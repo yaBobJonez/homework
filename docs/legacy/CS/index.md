@@ -13,15 +13,15 @@ search_exclude: true
 
 ## Пройденный материал:
 
-1. [Основы](Linear)
-2. [Ветвление (условия)](Conditional)
-3. [Циклы](Loops)
-4. [Массивы](Arrays)
-5. [Функции](Functions)
-6. [Классы (ООП)](Classes)
-7. [Исключения](Exceptions)
-8. [Работа с Файлами и Папками](DataStoring)
-9. [JavaFX](JavaFXBasics)
+1. [Основы](legacy/Linear)
+2. [Ветвление (условия)](legacy/Conditional)
+3. [Циклы](legacy/Loops)
+4. [Массивы](legacy/Arrays)
+5. [Функции](legacy/Functions)
+6. [Классы (ООП)](legacy/Classes)
+7. [Исключения](legacy/Exceptions)
+8. [Работа с Файлами и Папками](legacy/DataStoring)
+9. [JavaFX](legacy/JavaFXBasics)
 
 ## В прогрессе:
 
@@ -29,6 +29,6 @@ search_exclude: true
 
 ## Дополнительно:
 
-- [Git команды](Git)
-- [**Авторизация через Git**](GitTokens)
+- [Git команды](legacy/Git)
+- [**Авторизация через Git**](legacy/GitTokens)
 - [~~Swing~~](#)

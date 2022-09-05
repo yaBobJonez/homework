@@ -15,13 +15,13 @@ search_exclude: true
 Информационный сайт 11-А класса школы №3 города Киева.
 {: .fs-5 }
 
-[Динамическое расписание](schedule){: .btn .btn-blue }
+[Динамическое расписание](legacy/schedule){: .btn .btn-blue }
 
 ### Материалы
 
-[Математика](math){: .btn .btn-purple }
-[Українська](ukr){: .btn .btn-purple }
-[Информатика (Java)](CS/index){: .btn .btn-purple }
+[Математика](legacy/math){: .btn .btn-purple }
+[Українська](legacy/ukr){: .btn .btn-purple }
+[Информатика (Java)](legacy/CS/index){: .btn .btn-purple }
 [~~Информатика (Python)~~](#){: .btn .btn-outline }
 
 ### Полезное

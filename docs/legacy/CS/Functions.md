@@ -63,7 +63,7 @@ this.method();
 - `private`
 - Нету (default)
 
-[Таблица сравнения](Classes)
+[Таблица сравнения](legacy/Classes)
 
 #### Тип
 
