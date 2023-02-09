@@ -1,18 +1,13 @@
-# Проєкти Python з Інформатики
+# Проєкти з ООП (НАУ)
 
-_Потрібен Python 3+._
+_Скомпільовані на C++/GCC 12.2.0 та C#/.NET Core 7.0.102._
+_Для C++ використовується CMake._
 
-- Тут знаходяться всі задачі, виконані мною.
-- `commons.py` — це файл, загальний для декількох задач, що містить спільні та допоміжні шматки коду _(Виключення з Unlicense; розповсюджується під MIT License)_
-- На репозиторії також збережені [Java проєкти](https://github.com/yaBobJonez/Homework/tree/java).
+Тут знаходяться всі виконані лабораторні роботи Стецюка Михайла з дисципліни Об'єктно-орієнтоване програмування, НАУ 2023.
 
-### Корисне
+На репозиторії також збережено:
+- [Шкільні Java проєкти](https://github.com/yaBobJonez/Homework/tree/java)
+- [Шкільні Python проєкти](https://github.com/yaBobJonez/Homework/tree/python)
+- [Допомога з Java для однокласників](https://yaBobJonez.github.io/Homework/CS)
 
-- [Допомога по Java](https://yaBobJonez.github.io/Homework/CS)
-- [Шаблон C++ проєкта](https://github.com/yaBobJonez/Homework/tree/cpp/CPP_template)
-
-### Інше
-
-- Файли цього репозиторію можна використовувати згідно з [Unlicense](https://github.com/yaBobJonez/Homework/blob/python/LICENSE).
-- ~~Моя реклама~~ [Інші мої проєкти](https://github.com/yaBobJonez?tab=repositories)
-
+Файли цього репозиторію можна використовувати згідно з [Boost Software License 1.0](https://github.com/yaBobJonez/Homework/blob/uni/LICENSE).

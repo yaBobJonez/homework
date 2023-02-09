@@ -1,0 +1,15 @@
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/bin/Debug/net7.0/Task1
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/bin/Debug/net7.0/Task1.deps.json
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/bin/Debug/net7.0/Task1.runtimeconfig.json
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/bin/Debug/net7.0/Task1.dll
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/bin/Debug/net7.0/Task1.pdb
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.csproj.AssemblyReference.cache
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.GeneratedMSBuildEditorConfig.editorconfig
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.AssemblyInfoInputs.cache
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.AssemblyInfo.cs
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.csproj.CoreCompileInputs.cache
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.dll
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/refint/Task1.dll
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.pdb
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/Task1.genruntimeconfig.cache
+/home/michael/VSProjects/Homework/CSharp/Lab1_1/Task1/obj/Debug/net7.0/ref/Task1.dll
