@@ -29,7 +29,7 @@ public:
         for(std::size_t i = 0; i < size; i++)
             if(!isInt(i)) return false;
         return true;
-    } bool toInts(int* arr){ for(std::size_t i = 0; i < size; i++) arr[i] = this->toInt(i); }
+    } void toInts(int* arr){ for(std::size_t i = 0; i < size; i++) arr[i] = this->toInt(i); }
     std::string operator[](std::size_t i){
         return args[i];
     }

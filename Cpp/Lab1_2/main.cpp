@@ -16,7 +16,10 @@ void program1(){
             continue;
         } int arr[4];
         args.toInts(arr);
-        line.set(arr[0], arr[1], arr[2], arr[3]);
+        if(arr[0] == arr[2] && arr[1] == arr[3]){
+            std::cerr << "Точка не є відрізком, кінці не можуть збігатись!" << std::endl;
+            continue;
+        } line.set(arr[0], arr[1], arr[2], arr[3]);
         std::cout << line.toString() << std::endl;
         std::cout << "Довжина відрізка: " << line.length() << std::endl;
         std::cout << "Кут відносно OX: " << std::abs(90 - line.getAngleRelToOY()) << std::endl;
@@ -48,6 +51,6 @@ int main() {
         if(input == "1") program1();
         else if(input == "2") program2();
         else if(input == "3") break;
-        else std::cerr << "Будь ласка, виберіть число.\n> ";
+        else std::cerr << "Будь ласка, виберіть число.\n";
     } return 0;
 }
