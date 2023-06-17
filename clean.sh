@@ -1,10 +1,11 @@
 # Видалити всі бінарники
 find . -iname "bin" -printf '"%p"\n' | xargs -r rm -rv
 find . -iname "obj" -printf '"%p"\n' | xargs -r rm -rv
+find . -iname "out" -printf '"%p"\n' | xargs -r rm -rv
 find . -iname "cmake-build-debug" -printf '"%p"\n' | xargs -r rm -rv
 
 # Перевірити та записати поточні версії компіляторів
-sed -i "3s/.*/_Скомпільовані на C++\/GCC $(c++ -dumpfullversion) та C#\/.NET Core $(dotnet --version)._/" README.md
+sed -i "3s/.*/_Скомпільовані на C++\/GCC $(c++ -dumpfullversion), C#\/.NET Core $(dotnet --version) та Java\/OpenJDK $(java --version | head -1 | cut -f2 -d' ')._/" README.md
 
 # Запис на GitHub репозиторій
 echo "Створити новий коміт?"

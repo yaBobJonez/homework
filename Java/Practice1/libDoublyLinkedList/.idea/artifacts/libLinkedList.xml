@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="libLinkedList">
+    <output-path>$PROJECT_DIR$/artifacts</output-path>
+    <root id="archive" name="libLinkedList.jar">
+      <element id="module-output" name="libDoublyLinkedList" />
+    </root>
+  </artifact>
+</component>

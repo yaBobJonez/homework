@@ -32,17 +32,17 @@ public class Program
             switch (split[0])
             {
                 case "names":
-                    for (int i = 1; i <= 23; i++)
+                    for (int i = 0; i < 23; i++)
                     {
-                        Console.Write($"{i+". "+availNames.ElementAt(i-1).Key , -17}");
-                        if (i % 4 == 0) Console.WriteLine();
+                        Console.Write($"{i+". "+availNames.ElementAt(i).Key , -17}");
+                        if ((i+1) % 4 == 0) Console.WriteLine();
                     }
                     Console.WriteLine();
                     break;
                 case "add":
                     if (split.Length < 3){ Console.Error.WriteLine("Некоректна команда."); break; }
                     if (!int.TryParse(split[1], out nameN)){ Console.Error.WriteLine($"Некоретний номер імені {split[1]}."); continue; }
-                    if (nameN < 1 || nameN > 23){ Console.Error.WriteLine($"Імені з номером {nameN} не існує."); continue; }
+                    if (nameN < 0 || nameN > 22){ Console.Error.WriteLine($"Імені з номером {nameN} не існує."); continue; }
                     date = split[2].Split(".");
                     if (date.Length != 2){ Console.Error.WriteLine($"Некоректна формат дати {split[2]}."); break; }
                     if (!int.TryParse(date[0], out day)){ Console.Error.WriteLine($"Некоретний день {date[0]}."); continue; }
@@ -60,7 +60,7 @@ public class Program
                     if (split.Length < 4){ Console.Error.WriteLine("Некоректна команда."); break; }
                     if (!int.TryParse(split[1], out n)){ Console.Error.WriteLine($"Некоректне число-індекс {split[1]}."); continue; }
                     if (!int.TryParse(split[2], out nameN)){ Console.Error.WriteLine($"Некоретний номер імені {split[2]}."); continue; }
-                    if (nameN < 1 || nameN > 23){ Console.Error.WriteLine($"Імені з номером {nameN} не існує."); continue; }
+                    if (nameN < 0 || nameN > 22){ Console.Error.WriteLine($"Імені з номером {nameN} не існує."); continue; }
                     date = split[3].Split(".");
                     if (date.Length != 2){ Console.Error.WriteLine($"Некоректна формат дати {split[3]}."); break; }
                     if (!int.TryParse(date[0], out day)){ Console.Error.WriteLine($"Некоретний день {date[0]}."); continue; }
