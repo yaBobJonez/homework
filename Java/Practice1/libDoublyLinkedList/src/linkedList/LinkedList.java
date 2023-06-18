@@ -31,7 +31,7 @@ public class LinkedList<T> implements Iterable<T> {
         if (current.prev != null) current.prev.next = current.next;
         if (current.next != null) current.next.prev = current.prev;
         if (current == first) first = current.next;
-        else if (current == last) last = current.prev;
+        if (current == last) last = current.prev;
         length -= 1;
     }
     public T get(int index) {

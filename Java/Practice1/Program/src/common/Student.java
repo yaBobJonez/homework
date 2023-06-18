@@ -1,4 +1,4 @@
-import java.util.HashMap;
+package common;
 
 public class Student {
     public Names name;

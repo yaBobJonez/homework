@@ -1,3 +1,5 @@
+package common;
+
 public enum Names {
     Valentyn, Olexandr, Nazar, Maxym,
     Mykhailo, Victor, Rostyslav, Volodymyr,
