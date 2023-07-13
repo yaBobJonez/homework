@@ -78,13 +78,6 @@ public class LinkedList<T> : IEnumerable<T>
             {
                 if (sorter(current.Data, current.Next.Data))
                 {
-                    /*ListNode<T>? preCurr = current.Prev, postNext = current.Next.Next;
-                    if (preCurr != null) preCurr.Next = current.Next;
-                    if (postNext != null) postNext.Prev = current;
-                    current.Next.Prev = preCurr;
-                    current.Next.Next = current;
-                    current.Prev = current.Next;
-                    current.Next = postNext;*/
                     (current.Next.Data, current.Data) = (current.Data, current.Next.Data);
                 }
                 current = current.Next;

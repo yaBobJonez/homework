@@ -38,7 +38,7 @@ _Важливо_: можна вказувати шлях до папок, які
 | `toAbsoluteFile()` | File | Перетворити File в такий же з абсолютним шляхом |
 | `listFiles()` | File[] | Отримати масив файлів і папок у даній папці |
 
-Інші методи, як і з іншими класами, можна подивитись в офіційному [API Java (11)](https://docs.oracle.com/en/java/javase/11/docs/api/).
+Інші методи, як і з іншими класами, можна подивитись в офіційному [Java 20 API](https://docs.oracle.com/en/java/javase/20/docs/api/index.html).
 
 ## Читання файлів
 
@@ -71,4 +71,3 @@ FileWriter fw = new FileWriter(f2, false);
 fw.write("Це перший рядок,\nа це — другий.");
 fw.close();
 ```
-

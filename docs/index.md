@@ -13,9 +13,6 @@ has_toc: false
 Деяка можливо корисна інформація та матеріали від випускника Спеціалізованої школи №3.
 {: .fs-5 }
 
-Перекладена українською та перероблена версія. [Натисніть, щоб переглянути стару.](legacy)
-{: .fs-1 }
-
 ### Матеріали
 
 [Математика](math){: .btn .btn-purple }
@@ -26,15 +23,13 @@ has_toc: false
 
 [Сайт школи](https://school3.kyiv.ua/){: .btn }
 [HUMAN](https://lms.human.ua/app/home/){: .btn }
-[Discord школи](https://discord.com/invite/kGnEk5U){: .btn }
+[Discord](https://discord.com/){: .btn }
 
 [Підручники 10 клас](https://lib.imzo.gov.ua/yelektronn-vers-pdruchnikv/10-klas/){: .btn }
 [Підручники 11 клас](https://lib.imzo.gov.ua/yelektronn-vers-pdruchnikv/11-klas/){: .btn }
 
 ##### Доробити цей сайт
 
-[Markdown файли](https://github.com/yaBobJonez/Homework/tree/python/docs){: .btn }
+[Markdown файли](https://github.com/yaBobJonez/Homework/tree/uni/docs){: .btn }
 
-Ви можете зробити копію (Fork) даного сайту, внести до неї зміни або додати щось, а потім відправити звернення з
-Вашими правками, щоб я міг їх додати (відкрити Pull request).
-
+Ви можете зробити копію (Fork) даного сайту, внести до неї зміни або додати щось, а потім відправити звернення з Вашими правками, щоб я міг їх додати (відкрити Pull request).

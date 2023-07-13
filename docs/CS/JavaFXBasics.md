@@ -50,7 +50,7 @@ public class Main extends Application {
 
 ## Ресурси для вивчення
 
-На жаль, бібліотека JavaFX є дуже великою та багатофункціональною темою, тому я не можу давати стільки роз'яснень. Якщо Ви зацікавленні у створенні гарних графічних програм на Java (або просто з Вас вимагає цього шкільна програма xD), то краще пошукайте додаткову інформацію в Інтернеті. Я можу порекомендувати такі джерела: [code.makery (Укр)](https://code.makery.ch/uk/library/javafx-tutorial/), [Jenkov Tutorials](https://jenkov.com/tutorials/javafx/index.html), [Tutorials Point](https://www.tutorialspoint.com/javafx/index.htm) і [JavaTpoint (Англ)](https://www.javatpoint.com/javafx-tutorial).
+На жаль, бібліотека JavaFX є дуже великою та багатофункціональною темою, тому я не можу надати багато роз'яснень. Якщо Ви зацікавленні у створенні гарних графічних програм на Java (або просто з Вас вимагає цього шкільна програма xD), то краще пошукайте додаткову інформацію в Інтернеті. Я можу порекомендувати такі джерела: [code.makery (Укр)](https://code.makery.ch/uk/library/javafx-tutorial/), [Jenkov Tutorials](https://jenkov.com/tutorials/javafx/index.html), [Tutorials Point](https://www.tutorialspoint.com/javafx/index.htm) і [JavaTpoint (Англ)](https://www.javatpoint.com/javafx-tutorial).
 
 Нижче також приведені _мої власні приклади можливостей JavaFX_ зі знімками екрана, але написані чистим кодом (без FXML).
 

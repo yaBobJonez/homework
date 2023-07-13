@@ -29,7 +29,7 @@ has_toc: false
 
 Після завантаження .msi, запустіть цей інсталятор та слідуйте інструкціям. Обов'язково виберіть всі компоненти, як показано нижче.
 
-![Галочки](../img/cs8.png)
+![Прапорці](../img/cs8.png)
 
 Можливо знадобится перезавантаження для застосування змін до системних змінних.
 
@@ -37,41 +37,38 @@ has_toc: false
 
 Використовуйте пакетний менеджер свого дистрибутиву (apt, rpm, pacman тощо).
 
-Назва пакету JDK 17 в деяких ОС:
-- Debian, Ubuntu `openjdk-17-jdk`
-- Fedora `java-17-openjdk.x86_64`
-- RHEL, CentOS, OpenSUSE `java-17-openjdk`
-- Linux Mint `openjdk-17-jdk`
-- Arch, Manjaro `jdk17-openjdk`
+Назва пакету JDK 20 в деяких ОС:
+- Debian, Ubuntu, Linux Mint `openjdk-21-jdk` / `default-jdk`
+- Fedora, CentOS, RHEL, OpenSUSE `java-latest-openjdk-devel` / `java-17-openjdk-devel`
+- Arch Linux, Manjaro `jdk-openjdk`
 
 ### macOS
 
-**?** _Якщо Ви використовували macOS та знаєте, як встановити Java на неї, будь ласка, додайте сюди._
+**?** _Якщо Ви використовували macOS та знаєте, як встановити JDK на неї, будь ласка, додайте сюди._
 
 ## Встановлення середовища розробки
 
-Однак, перед тим, як виконати код, його потрібно десь написати. Звичайний "Блокнот" чи щось таке — недостатньо, адже вручну використовувати компілятор досить складно і незручно. Таким чином, існують _IDE_ — _integrated development environments_, або українською — інтегровані середовища розробки. Наскільки я пам'ятаю, у школі використовували IntelliJ IDEA, тому далі буде інструкція із встановлення цієї IDE, хоча існують й альтернативи: Eclipse IDE, Netbeans та інші.
+Однак, перед тим, як виконати код, його потрібно десь написати. Звичайний "Блокнот" чи щось таке — недостатньо, адже вручну використовувати компілятор досить складно і незручно. Таким чином, існують _IDE_ — _integrated development environments_ — інтегровані середовища розробки. Наскільки я пам'ятаю, у школі використовували IntelliJ IDEA, тому далі буде інструкція із встановлення цієї IDE, хоча існують й альтернативи: Eclipse IDE, Netbeans та інші.
 
 ### Windows
 
-Перейдіть на сайт JetBrains IntelliJ, на [сторінку завантаження](https://www.jetbrains.com/ru-ru/idea/download/). Виберіть та завантажте безкоштовку версію — Community Edition:
+Перейдіть на сайт JetBrains IntelliJ, на [сторінку завантаження](https://www.jetbrains.com/idea/download/?section=windows). Виберіть та завантажте безкоштовку версію — Community Edition:
 
 ![Community Edition](../img/cs9.png)
 
 Далі запустіть інсталятор та слідуйте інструкціям, але обов'язково впевнітся, що Ви вибрали хоча б такі опції:
 
-![Галочки](../img/cs10.png)
+![Прапорці](../img/cs10.png)
 
-Не забудьте перезавантажити Windows, коли установка завершиться.
+Не забудьте перезавантажити Windows, коли встановлення завершиться.
 
 ### Linux
 
-Якщо у Вашому дистрибутиві є Snap, використайте його:
+Якщо у Вашому дистрибутиві є Flatpak, встановіть [IntelliJ IDEA Community](https://flathub.org/apps/com.jetbrains.IntelliJ-IDEA-Community) через магазин додатків або вручну: `flatpak install flathub com.jetbrains.IntelliJ-IDEA-Community`.
 
-```bash
-# snap install intellij-idea-community --classic
-```
-Інакше, розпакуйте tarball з офіційного [сайту](https://www.jetbrains.com/ru-ru/idea/download/) в /opt.
+Інакше можете скористатись [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/), який треба завантажити, розпакувати кудись, та запустити; слідувати інструкціям.
+
+Іншим варіантом є встановлення [IDE окремо](https://www.jetbrains.com/idea/download/?section=linux) (аналогічно до Toolbox).
 
 ### macOS
 
