@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Хімія
-nav_order: 5
+nav_order: 6
 description: "Якась невідомість..."
 has_toc: false
 ---

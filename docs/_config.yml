@@ -11,3 +11,8 @@ last_edit_time_format: "@ %m/%d/%Y %l:%M %p"
 plugins:
   - jekyll-remote-theme
   - jemoji
+
+callouts:
+  new:
+    title: Що нового
+    color: green
