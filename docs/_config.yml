@@ -13,9 +13,6 @@ gh_edit_repository: "https://github.com/yaBobJonez/Homework"
 gh_edit_branch: "uni"
 gh_edit_source: docs
 
-ga_tracking: G-898RE4CN8Y
-ga_tracking_anonymize_ip: true
-
 plugins:
   - jemoji
 

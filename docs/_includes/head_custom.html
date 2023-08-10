@@ -1,0 +1,28 @@
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-898RE4CN8Y"></script>
+<script>
+  function sendAnalytics(){
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-898RE4CN8Y', {
+      'anonymize_ip': true,
+      'cookie_domain': 'yabobjonez.github.io',
+      'cookie_flags': 'SameSite=None;Secure'
+    });
+  }
+  document.addEventListener("DOMContentLoaded", function(event) {
+    if(localStorage.getItem("cookiesAccepted") == null)
+      document.body.insertAdjacentHTML('beforeend', '<div id="cookiesBanner" style="border-radius: 7px 7px 0px 0px; background-color: black; color: white; font-size: 3.5vh; text-align: center; padding: 7px; position: fixed; left: 0px; right: 0px; bottom: 0px;"><div style="color: white; font-size: 3vh;">Дозвольте мені використовувати cookies для аналітики, будь ласочка :)</div><button style="border-radius: 7px; border: 1px solid gray; background-color: lightgray; padding: 10px; cursor: pointer; display: inline-block;" onmouseover="this.style.backgroundColor=\'white\';" onmouseout="this.style.backgroundColor=\'lightgray\';" onclick="onCookiesReject()">Відхилити</button><button style="border-radius: 7px; border: 1px solid gray; font-weight: bold; color: white; background-color: limegreen; padding: 10px; cursor: pointer; display: inline-block;" onmouseover="this.style.backgroundColor=\'green\';" onmouseout="this.style.backgroundColor=\'limegreen\';" onclick="onCookiesAccept()">ПРИЙНЯТИ</button></div>');
+    else if(localStorage.getItem("cookiesAccepted") == "true")
+      sendAnalytics();
+  });
+  function onCookiesAccept(){
+    document.getElementById("cookiesBanner").remove();
+    localStorage.setItem('cookiesAccepted', "true");
+    sendAnalytics();
+  } function onCookiesReject(){
+    document.getElementById("cookiesBanner").remove();
+    localStorage.setItem('cookiesAccepted', "false");
+  }
+</script>
