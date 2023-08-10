@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Різне
+title: Винятки та інше
 nav_order: 10
 parent: Інформатика (Python)
 description: "Курс Python на уроках Інформатики."

@@ -92,7 +92,7 @@ aSet = {"cat", "dog", "pheasant", "cat", "vole"}
 
 ### Математичні операції
 
-Так як множини є (математичним поняттям)[https://uk.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD%D0%B0], то до них можна застосовувати математичні операції з множинами.
+Так як множини є [математичним поняттям](https://uk.wikipedia.org/wiki/%D0%9C%D0%BD%D0%BE%D0%B6%D0%B8%D0%BD%D0%B0), то до них можна застосовувати математичні операції з множинами.
 
 ![svitppt.com.ua](https://svitppt.com.ua/images/30/29526/770/img2.jpg)
 

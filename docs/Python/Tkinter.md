@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Tkinter
+title: Tkinter (GUI)
 nav_order: 11
 parent: Інформатика (Python)
 description: "Курс Python на уроках Інформатики."
@@ -88,6 +88,8 @@ root.mainloop()
 Більшість матеріалу цього розділу до даної позначки є адаптацією (скороченим переказом) з англомовного джерела [GeeksForGeeks](https://www.geeksforgeeks.org/create-first-gui-application-using-python-tkinter/?ref=lbp). Решта розділів розроблені власноруч на власних знаннях, досвіді та шкільному матеріалі. Приклад калькулятора нижче теж оригінальний.
 
 ## Базовий калькулятор
+
+![Демонстрація роботи](../img/python4.png)
 
 ```python
 from tkinter import *
