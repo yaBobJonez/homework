@@ -1,0 +1,77 @@
+﻿<Window x:Class="LMV_Lab3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
+        xmlns:local="clr-namespace:LMV_Lab3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" KeyDown="OnWindowKeyPress">
+    <Window.Resources>
+        <RoutedUICommand x:Key="MessageCmd" Text="_Message">
+            <RoutedUICommand.InputGestures>
+                <KeyGesture>Ctrl+M</KeyGesture>
+            </RoutedUICommand.InputGestures>
+        </RoutedUICommand>
+        <RoutedUICommand x:Key="CheckCmd" Text="_Check">
+            <RoutedUICommand.InputGestures>
+                <KeyGesture>Ctrl+C</KeyGesture>
+            </RoutedUICommand.InputGestures>
+        </RoutedUICommand>
+        <RoutedUICommand x:Key="ExitCmd" Text="_Exit">
+            <RoutedUICommand.InputGestures>
+                <KeyGesture>Ctrl+E</KeyGesture>
+            </RoutedUICommand.InputGestures>
+        </RoutedUICommand>
+        <RoutedUICommand x:Key="AboutCmd" Text="_About">
+            <RoutedUICommand.InputGestures>
+                <KeyGesture>Ctrl+A</KeyGesture>
+            </RoutedUICommand.InputGestures>
+        </RoutedUICommand>
+        <Image x:Key="MessageIcon" Source="/msg.png"/>
+        <Image x:Key="QuitIcon" Source="/quit.png"/>
+        <Image x:Key="CheckIcon" Source="/chq.png"/>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{StaticResource MessageCmd}" Executed="OnMessageShow" />
+        <CommandBinding Command="{StaticResource CheckCmd}" Executed="OnCheck"/>
+        <CommandBinding Command="{StaticResource ExitCmd}" Executed="OnQuit" />
+        <CommandBinding Command="{StaticResource AboutCmd}" Executed="OnAbout" />
+    </Window.CommandBindings>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="MainMenu" FontSize="18">
+            <MenuItem Header="_File">
+                <MenuItem Header="_Message" IsEnabled="{Binding IsChecked}" Command="{StaticResource MessageCmd}"/>
+                <MenuItem Header="_Check" IsCheckable="True" IsChecked="{Binding IsChecked, Mode=TwoWay}"/>
+                <MenuItem Header="_Exit" Command="{StaticResource ExitCmd}"/>
+            </MenuItem>
+            <MenuItem x:Name="tableMenuItem" Header="_Table">
+                
+            </MenuItem>
+            <MenuItem Header="_Help">
+                <MenuItem Header="_About" Command="{StaticResource AboutCmd}"/>
+            </MenuItem>
+        </Menu>
+        <ToolBar Grid.Row="1">
+            <Button Content="{StaticResource MessageIcon}" FontSize="18" IsEnabled="{Binding IsChecked}" Command="{StaticResource MessageCmd}"/>
+            <ToggleButton Content="{StaticResource CheckIcon}" FontSize="18" IsChecked="{Binding IsChecked, Mode=TwoWay}"/>
+            <Button Content="{StaticResource QuitIcon}" FontSize="18" Command="{StaticResource ExitCmd}"/>
+
+        </ToolBar>
+        <TextBox x:Name="TextEdit" TextWrapping="Wrap" AcceptsReturn="True" Text="Введіть ваш текст тут." FontSize="18" Grid.Row="2" Margin="5,5,5,5">
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="_Message" IsEnabled="{Binding IsChecked}" Command="{StaticResource MessageCmd}"/>
+                    <MenuItem Header="_Check" IsCheckable="True" IsChecked="{Binding IsChecked, Mode=TwoWay}"/>
+                    <MenuItem Header="_Exit" Command="{StaticResource ExitCmd}"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
+        </TextBox>
+
+    </Grid>
+</Window>
