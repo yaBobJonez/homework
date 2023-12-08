@@ -1,0 +1,247 @@
+﻿namespace OOPLR2
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            tableLayoutPanel1 = new TableLayoutPanel();
+            j2DestructBtn = new Button();
+            j2TimeBtn = new Button();
+            button4 = new Button();
+            j2WordsBtn = new Button();
+            j2InfoBtn = new Button();
+            button1 = new Button();
+            j1TimeBtn = new Button();
+            j1WordsBtn = new Button();
+            j1InfoBtn = new Button();
+            j1DestructBtn = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            tableLayoutPanel1.SuspendLayout();
+            SuspendLayout();
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Controls.Add(j2DestructBtn, 1, 4);
+            tableLayoutPanel1.Controls.Add(j2TimeBtn, 1, 1);
+            tableLayoutPanel1.Controls.Add(button4, 0, 0);
+            tableLayoutPanel1.Controls.Add(j2WordsBtn, 1, 2);
+            tableLayoutPanel1.Controls.Add(j2InfoBtn, 1, 3);
+            tableLayoutPanel1.Controls.Add(button1, 1, 0);
+            tableLayoutPanel1.Controls.Add(j1TimeBtn, 0, 1);
+            tableLayoutPanel1.Controls.Add(j1WordsBtn, 0, 2);
+            tableLayoutPanel1.Controls.Add(j1InfoBtn, 0, 3);
+            tableLayoutPanel1.Controls.Add(j1DestructBtn, 0, 4);
+            tableLayoutPanel1.Controls.Add(button3, 1, 5);
+            tableLayoutPanel1.Controls.Add(button2, 0, 5);
+            tableLayoutPanel1.Location = new Point(12, 12);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 6;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.666666F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(388, 527);
+            tableLayoutPanel1.TabIndex = 0;
+            // 
+            // j2DestructBtn
+            // 
+            j2DestructBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j2DestructBtn.Enabled = false;
+            j2DestructBtn.Location = new Point(197, 351);
+            j2DestructBtn.Name = "j2DestructBtn";
+            j2DestructBtn.Size = new Size(188, 81);
+            j2DestructBtn.TabIndex = 13;
+            j2DestructBtn.Text = "Знищити журнал 2";
+            j2DestructBtn.UseVisualStyleBackColor = true;
+            j2DestructBtn.Click += OnJ2Destruct;
+            // 
+            // j2TimeBtn
+            // 
+            j2TimeBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j2TimeBtn.Enabled = false;
+            j2TimeBtn.Location = new Point(197, 90);
+            j2TimeBtn.Name = "j2TimeBtn";
+            j2TimeBtn.Size = new Size(188, 81);
+            j2TimeBtn.TabIndex = 1;
+            j2TimeBtn.Text = "Час до наст. випуску журналу 2";
+            j2TimeBtn.UseVisualStyleBackColor = true;
+            j2TimeBtn.Click += OnJ2Time;
+            // 
+            // button4
+            // 
+            button4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button4.Location = new Point(3, 3);
+            button4.Name = "button4";
+            button4.Size = new Size(188, 81);
+            button4.TabIndex = 3;
+            button4.Text = "Створити дит. журнал 1";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += OnJ1Create;
+            // 
+            // j2WordsBtn
+            // 
+            j2WordsBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j2WordsBtn.Enabled = false;
+            j2WordsBtn.Location = new Point(197, 177);
+            j2WordsBtn.Name = "j2WordsBtn";
+            j2WordsBtn.Size = new Size(188, 81);
+            j2WordsBtn.TabIndex = 5;
+            j2WordsBtn.Text = "Кількість слів журналу 2";
+            j2WordsBtn.UseVisualStyleBackColor = true;
+            j2WordsBtn.Click += OnJ2Words;
+            // 
+            // j2InfoBtn
+            // 
+            j2InfoBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j2InfoBtn.Enabled = false;
+            j2InfoBtn.Location = new Point(197, 264);
+            j2InfoBtn.Name = "j2InfoBtn";
+            j2InfoBtn.Size = new Size(188, 81);
+            j2InfoBtn.TabIndex = 10;
+            j2InfoBtn.Text = "Інформація про журнал 2";
+            j2InfoBtn.UseVisualStyleBackColor = true;
+            j2InfoBtn.Click += OnJ2Info;
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button1.Location = new Point(197, 3);
+            button1.Name = "button1";
+            button1.Size = new Size(188, 81);
+            button1.TabIndex = 0;
+            button1.Text = "Створити дит. журнал 2";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += OnJ2Create;
+            // 
+            // j1TimeBtn
+            // 
+            j1TimeBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j1TimeBtn.Enabled = false;
+            j1TimeBtn.Location = new Point(3, 90);
+            j1TimeBtn.Name = "j1TimeBtn";
+            j1TimeBtn.Size = new Size(188, 81);
+            j1TimeBtn.TabIndex = 4;
+            j1TimeBtn.Text = "Час до наст. випуску журналу 1";
+            j1TimeBtn.UseVisualStyleBackColor = true;
+            j1TimeBtn.Click += OnJ1Time;
+            // 
+            // j1WordsBtn
+            // 
+            j1WordsBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j1WordsBtn.Enabled = false;
+            j1WordsBtn.Location = new Point(3, 177);
+            j1WordsBtn.Name = "j1WordsBtn";
+            j1WordsBtn.Size = new Size(188, 81);
+            j1WordsBtn.TabIndex = 9;
+            j1WordsBtn.Text = "Кількість слів журналу 1";
+            j1WordsBtn.UseVisualStyleBackColor = true;
+            j1WordsBtn.Click += OnJ1Words;
+            // 
+            // j1InfoBtn
+            // 
+            j1InfoBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j1InfoBtn.Enabled = false;
+            j1InfoBtn.Location = new Point(3, 264);
+            j1InfoBtn.Name = "j1InfoBtn";
+            j1InfoBtn.Size = new Size(188, 81);
+            j1InfoBtn.TabIndex = 7;
+            j1InfoBtn.Text = "Інформація про журнал 1";
+            j1InfoBtn.UseVisualStyleBackColor = true;
+            j1InfoBtn.Click += OnJ1Info;
+            // 
+            // j1DestructBtn
+            // 
+            j1DestructBtn.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            j1DestructBtn.Enabled = false;
+            j1DestructBtn.Location = new Point(3, 351);
+            j1DestructBtn.Name = "j1DestructBtn";
+            j1DestructBtn.Size = new Size(188, 81);
+            j1DestructBtn.TabIndex = 8;
+            j1DestructBtn.Text = "Знищити журнал 1";
+            j1DestructBtn.UseVisualStyleBackColor = true;
+            j1DestructBtn.Click += OnJ1Destruct;
+            // 
+            // button3
+            // 
+            button3.AccessibleDescription = "";
+            button3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button3.Location = new Point(197, 438);
+            button3.Name = "button3";
+            button3.Size = new Size(188, 86);
+            button3.TabIndex = 2;
+            button3.Text = "Завершити роботу";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += OnQuit;
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            button2.Location = new Point(3, 438);
+            button2.Name = "button2";
+            button2.Size = new Size(188, 86);
+            button2.TabIndex = 14;
+            button2.Text = "Використання індексатора";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += OnPeriodRepresent;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(412, 551);
+            Controls.Add(tableLayoutPanel1);
+            Name = "Form1";
+            Text = "Періодичне видання";
+            tableLayoutPanel1.ResumeLayout(false);
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private TableLayoutPanel tableLayoutPanel1;
+        private Button button1;
+        private Button j2TimeBtn;
+        private Button button3;
+        private Button button4;
+        private Button j1TimeBtn;
+        private Button j2WordsBtn;
+        private Button j1InfoBtn;
+        private Button j1DestructBtn;
+        private Button j1WordsBtn;
+        private Button j2InfoBtn;
+        private Button j2DestructBtn;
+        private Button button2;
+    }
+}

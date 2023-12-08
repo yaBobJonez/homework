@@ -19,7 +19,7 @@
         <TextBox x:Name="messageEdit" Grid.Column="1" TextWrapping="Wrap" VerticalAlignment="Center" Margin="5,5,5,5"/>
         <GroupBox Header="Select an Option" Grid.Row="1">
             <StackPanel Margin="5,5,5,5">
-                <RadioButton x:Name="opt1" Content="Option 1" GroupName="opts" IsChecked="True"/>
+                <RadioButton x:Name="opt1" Content="Option 1" GroupName="opts" IsChecked="False"/>
                 <RadioButton x:Name="opt2" Content="Option 2" GroupName="opts"/>
                 <RadioButton x:Name="opt3" Content="Option 3" GroupName="opts"/>
                 <RadioButton x:Name="opt4" Content="Option 4" GroupName="opts"/>

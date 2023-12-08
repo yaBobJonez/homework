@@ -70,7 +70,7 @@ namespace LMV_Lab4
                 : this.MsgAndOptDlg.opt2.IsChecked == true ? "2"
                 : this.MsgAndOptDlg.opt3.IsChecked == true ? "3"
                 : this.MsgAndOptDlg.opt4.IsChecked == true ? "4"
-                : "Сталася помилка :(";
+                : "Нічого не вибрано";
         }
 
         private void OnQuit(object sender, RoutedEventArgs e)
