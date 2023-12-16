@@ -1,0 +1,104 @@
+﻿<Window x:Class="MANAU.SeatsForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        xmlns:local="clr-namespace:MANAU"
+        mc:Ignorable="d"
+        Title="Місця" Height="700" Width="470">
+    <Grid>
+        <Image Source="/plane.png"/>
+        <!--DataGrid x:Name="seatsList" AutoGenerateColumns="False" 
+          EnableRowVirtualization="True" 
+          ItemsSource="{Binding Source={StaticResource flightSeatsViewSource}}" 
+          Margin="5,5,5,50" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding SeatId}" 
+                            Header="ID" Width="SizeToHeader"
+                            IsReadOnly="True"/>
+                <DataGridCheckBoxColumn Binding="{Binding IsVacant}" Header="Доступне" 
+                            Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid-->
+        <Grid Margin="170,72,160,110">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Перший клас" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            <Label Content="Другий клас" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center"/>
+            <Label Content="Третій клас" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center"/>
+            <ItemsControl x:Name="seatsFirstList"
+                          ItemsSource="{Binding Source={StaticResource flightFirstSeatsViewSource}}" Grid.Row="1">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button x:Name="seat"
+                            Margin="0,0,5,5" Width="25" Height="25"
+                            Content="{Binding Number}" Background="Green"
+                            Click="OnSeatClick"/>
+                        <DataTemplate.Triggers>
+                            <DataTrigger Binding="{Binding IsVacant}" Value="False">
+                                <Setter TargetName="seat" Property="Background" Value="Red"/>
+                            </DataTrigger>
+                        </DataTemplate.Triggers>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            <ItemsControl x:Name="seatsSecondList"
+                          ItemsSource="{Binding Source={StaticResource flightSecondSeatsViewSource}}" Grid.Row="3">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button x:Name="seat"
+                                Margin="0,0,5,5" Width="25" Height="25"
+                                Content="{Binding Number}" Background="Green"
+                                Click="OnSeatClick"/>
+                        <DataTemplate.Triggers>
+                            <DataTrigger Binding="{Binding IsVacant}" Value="False">
+                                <Setter TargetName="seat" Property="Background" Value="Red"/>
+                            </DataTrigger>
+                        </DataTemplate.Triggers>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+            <ItemsControl x:Name="seatsThirdList"
+                          ItemsSource="{Binding Source={StaticResource flightThirdSeatsViewSource}}" Grid.Row="5">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Button x:Name="seat"
+                                Margin="0,0,5,5" Width="25" Height="25"
+                                Content="{Binding Number}" Background="Green"
+                                Click="OnSeatClick"/>
+                        <DataTemplate.Triggers>
+                            <DataTrigger Binding="{Binding IsVacant}" Value="False">
+                                <Setter TargetName="seat" Property="Background" Value="Red"/>
+                            </DataTrigger>
+                        </DataTemplate.Triggers>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+        </Grid>
+        <Button Click="OnConfigureSeats" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="35,0,0,35">
+            <TextBlock TextAlignment="Center" FontSize="14">Змінити<LineBreak/>місця</TextBlock>
+        </Button>
+    </Grid>
+</Window>

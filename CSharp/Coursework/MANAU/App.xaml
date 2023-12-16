@@ -1,0 +1,15 @@
+﻿<Application x:Class="MANAU.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MANAU"
+             StartupUri="Flights.xaml">
+    <Application.Resources>
+        <CollectionViewSource x:Key="flightViewSource"/>
+        <CollectionViewSource x:Key="flightFirstSeatsViewSource"
+                      Source="{Binding FirstSeats, Source={StaticResource flightViewSource}}"/>
+        <CollectionViewSource x:Key="flightSecondSeatsViewSource"
+                      Source="{Binding SecondSeats, Source={StaticResource flightViewSource}}"/>
+        <CollectionViewSource x:Key="flightThirdSeatsViewSource"
+                      Source="{Binding ThirdSeats, Source={StaticResource flightViewSource}}"/>
+    </Application.Resources>
+</Application>
