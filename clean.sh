@@ -5,7 +5,7 @@ find . -iname "out" -printf '"%p"\n' | xargs -r rm -rv
 find . -iname "cmake-build-debug" -printf '"%p"\n' | xargs -r rm -rv
 
 # Перевірити та записати поточні версії компіляторів
-sed -i "3s/.*/_Скомпільовані на C++\/GCC $(c++ -dumpfullversion), C#\/.NET Core $(dotnet --version) (C#/.NET Framework 7.0.401) та Java\/OpenJDK $(java --version | head -1 | cut -f2 -d' ')._/" README.md
+sed -i "3s/.*/_Скомпільовані на C++\/GCC $(c++ -dumpfullversion), C#\/.NET Core 7.0.203 (C#\/.NET Framework 7.0.401) та Java\/OpenJDK $(java --version | head -1 | cut -f2 -d' ')._/" README.md
 
 # Запис на GitHub репозиторій
 echo "Створити новий коміт?"
@@ -20,7 +20,7 @@ case $ghYn in
             Продовжити)
                 read -p "Коментар: " ghM
                 git commit -m "$ghM"
-                git push "https://$(sed -n '1p' ../hwtoken.txt):$(sed -n '2p' ../hwtoken.txt)@github.com/yaBobJonez/Homework.git"
+                git push
                 ;;
             Скасувати) ;;
         esac
