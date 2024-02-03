@@ -60,6 +60,6 @@ public class Main {
         }
         Random rnd = new Random();
         while(!queue.isFull())
-            queue.enqueue( (rnd.nextInt(20000)-10000) / 100.0 );
+            queue.enqueue( rnd.nextInt(10000, 20000) / 100.0 );
     }
 }

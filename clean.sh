@@ -8,13 +8,14 @@ find . -iname "cmake-build-debug" -printf '"%p"\n' | xargs -r rm -rv
 sed -i "3s/.*/_Скомпільовані на C++\/GCC $(c++ -dumpfullversion), C#\/.NET Core 7.0.203 (C#\/.NET Framework 7.0.401) та Java\/OpenJDK $(java --version | head -1 | cut -f2 -d' ')._/" README.md
 
 # Запис на GitHub репозиторій
-echo "Створити новий коміт?"
+git status
+echo "Додати зміни в індекс?"
 select ghYn in "Так" "Ні"; do
 case $ghYn in
     Так)
         git add -A
         git status
-        echo "Відправити на репозиторій?"
+        echo "Зробити коміт і відправити на репозиторій?"
         select ghPush in "Продовжити" "Скасувати"; do
         case $ghPush in
             Продовжити)
@@ -22,7 +23,9 @@ case $ghYn in
                 git commit -m "$ghM"
                 git push
                 ;;
-            Скасувати) ;;
+            Скасувати)
+                git reset
+                ;;
         esac
         break; done
         ;;
