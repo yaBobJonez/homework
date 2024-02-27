@@ -16,7 +16,7 @@ public class HashTable {
      * Окрім цього, значення X може бути відʼємне, тому береться за модулем.
      */
     protected int hash(double key){
-        return Math.abs( (int)Math.round(key) % this.size );
+        return Math.abs( (int)Math.round(key) % size );
     }
 
     /*
