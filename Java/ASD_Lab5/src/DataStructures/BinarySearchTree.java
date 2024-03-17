@@ -87,7 +87,6 @@ public class BinarySearchTree {
                     if (node.parent != root) node.parent.isRed = true;
                 }
             }
-            redRedConflict = false;
         }
         return node;
     }
