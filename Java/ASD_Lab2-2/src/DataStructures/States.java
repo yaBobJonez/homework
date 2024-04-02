@@ -1,5 +1,6 @@
 package DataStructures;
 
+// Перелік станів автомата
 public enum States {
     Q0("\\^"),
     Q1("[A-Z]"),
@@ -11,6 +12,7 @@ public enum States {
     F("Failure"),
     S("Success");
 
+    // Опис вказує на частину регулярного виразу до даного стану
     public final String description;
 
     private States(String desc) {

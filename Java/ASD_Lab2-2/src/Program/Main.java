@@ -8,13 +8,17 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+// Основний клас програми
 public class Main {
+    // Точка входу програми
     public static void main(String[] args) {
+        // Обробка аргументу `gen`, який генерує текстовий файл і завершує роботу програми
         if (args.length > 0 && args[0].equals("gen")) {
             DataGenerator.writeTests(10, 10);
             return;
         }
 
+        // Створення скінченного автомата з таблицею переходів
         FSM machine = new FSM()
                 .with(States.Q0, Events.BtoY,       States.F)
                 .with(States.Q0, Events.Caret,      States.Q1)
@@ -72,11 +76,13 @@ public class Main {
                 .with(States.Q6, Events.Digit,      States.F)
                 .with(States.Q6, Events.Etc,        States.Q6);
 
+        // Читання даних з файлу та їх поділ регулярним виразом на слова
         try (BufferedReader br = new BufferedReader(new FileReader("data.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 System.out.printf("%20s | %s%n", "Слово", "Підходить");
                 String[] words = line.split("[{}!]");
+                // Для кожного слова робиться перевірка на правильність скінченним автоматом
                 for (String word : words)
                     System.out.printf("%20s | %b%n", word, machine.match(word));
                 System.out.println();
