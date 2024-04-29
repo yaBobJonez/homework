@@ -1,0 +1,67 @@
+﻿<Window x:Class="Coursework_AtPPZ.FilterDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework_AtPPZ"
+        mc:Ignorable="d"
+        Title="Параметри фільтрування" Height="620" Width="560" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Content="Філія (ID):" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="1" Content="Відділ (ID):" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="2" Content="ID працівника:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="3" Content="Імʼя:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="4" Content="Прізвище:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="5" Content="Рік народження:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="6" Content="Посада:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="7" Content="Стаж:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <Label Grid.Row="8" Content="Зарплата:" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+        <TextBox Grid.Column="1" Grid.Row="0" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"
+                 Text="{Binding branchCrit, TargetNullValue=''}"/>
+        <TextBox Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"
+                 Text="{Binding departmentCrit, TargetNullValue=''}"/>
+        <TextBox Grid.Column="1" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"
+                 Text="{Binding idCrit, TargetNullValue=''}"/>
+        <TextBox Grid.Column="1" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"
+                 Text="{Binding firstNameCrit, TargetNullValue=''}"/>
+        <TextBox Grid.Column="1" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"
+                 Text="{Binding lastNameCrit, TargetNullValue=''}"/>
+        <DockPanel Grid.Column="1" Grid.Row="5" VerticalAlignment="Center" Margin="10,0,10,0">
+            <RadioButton x:Name="yearLt" Style="{StaticResource {x:Type ToggleButton}}" Content="&lt;" GroupName="birthYearRadio"/>
+            <RadioButton x:Name="yearEq" Style="{StaticResource {x:Type ToggleButton}}" Content="=" GroupName="birthYearRadio" IsChecked="True"/>
+            <RadioButton x:Name="yearGt" Style="{StaticResource {x:Type ToggleButton}}" Content="&gt;" GroupName="birthYearRadio"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding birthYearCrit, TargetNullValue=''}"/>
+        </DockPanel>
+        <TextBox Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Center" Margin="10,0,10,0"
+                 Text="{Binding positionCrit, TargetNullValue=''}"/>
+        <DockPanel Grid.Column="1" Grid.Row="7" VerticalAlignment="Center" Margin="10,0,10,0">
+            <RadioButton x:Name="experienceLt" Style="{StaticResource {x:Type ToggleButton}}" Content="&lt;" GroupName="experienceRadio"/>
+            <RadioButton x:Name="experienceEq" Style="{StaticResource {x:Type ToggleButton}}" Content="=" GroupName="experienceRadio" IsChecked="True"/>
+            <RadioButton x:Name="experienceGt" Style="{StaticResource {x:Type ToggleButton}}" Content="&gt;" GroupName="experienceRadio"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding experienceCrit, TargetNullValue=''}"/>
+        </DockPanel>
+        <DockPanel Grid.Column="1" Grid.Row="8" VerticalAlignment="Center" Margin="10,0,10,0">
+            <RadioButton x:Name="salaryLt" Style="{StaticResource {x:Type ToggleButton}}" Content="&lt;" GroupName="salaryRadio"/>
+            <RadioButton x:Name="salaryEq" Style="{StaticResource {x:Type ToggleButton}}" Content="=" GroupName="salaryRadio" IsChecked="True"/>
+            <RadioButton x:Name="salaryGt" Style="{StaticResource {x:Type ToggleButton}}" Content="&gt;" GroupName="salaryRadio"/>
+            <TextBox TextWrapping="Wrap" Text="{Binding salaryCrit, TargetNullValue=''}"/>
+        </DockPanel>
+        <ToggleButton x:Name="filterBtn" Grid.Column="1" Grid.Row="9" Content="Фільтрувати" Margin="10,0,10,0" VerticalAlignment="Center" Checked="filterBtn_Checked" Unchecked="filterBtn_Unchecked"/>
+    </Grid>
+</Window>

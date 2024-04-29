@@ -1,0 +1,129 @@
+﻿<Window x:Class="Coursework_AtPPZ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Coursework_AtPPZ"
+        mc:Ignorable="d"
+        Title="Програма обліку штату" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <CollectionViewSource x:Key="allViewSource"/>
+        <CollectionViewSource x:Key="branchViewSource"/>
+        <CollectionViewSource x:Key="departmentViewSource"
+                              Source="{Binding Departments, Source={StaticResource branchViewSource}}"/>
+        <CollectionViewSource x:Key="employeeViewSource"
+                              Source="{Binding Employees, Source={StaticResource departmentViewSource}}"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TabControl>
+            <TabItem Header="Усі працівники">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="allDataGrid" AutoGenerateColumns="False"
+                              EnableColumnVirtualization="True"
+                              ItemsSource="{Binding Source={StaticResource allViewSource}}"
+                              Margin="5,5,5,5" RowDetailsVisibilityMode="VisibleWhenSelected"
+                              IsReadOnly="True">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Department.BranchId}"
+                                                Header="Філія (ID)" Width="SizeToHeader"/>
+                            <DataGridTextColumn Binding="{Binding DepartmentId}"
+                                                Header="Відділ (ID)" Width="SizeToHeader"/>
+                            <DataGridTextColumn Binding="{Binding Id}"
+                                                Header="ID" Width="SizeToHeader"/>
+                            <DataGridTextColumn Binding="{Binding FirstName}"
+                                                Header="Імʼя" Width="2*"/>
+                            <DataGridTextColumn Binding="{Binding LastName}"
+                                                Header="Прізвище" Width="2*"/>
+                            <DataGridTextColumn Binding="{Binding BirthYear}"
+                                                Header="Рік народження" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Position}"
+                                                Header="Посада" Width="2*"/>
+                            <DataGridTextColumn Binding="{Binding Experience}"
+                                                Header="Стаж" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Salary}"
+                                                Header="Зарплата" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Філії">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="branchDataGrid" AutoGenerateColumns="False"
+                              EnableColumnVirtualization="True"
+                              ItemsSource="{Binding Source={StaticResource branchViewSource}}"
+                              Margin="5,5,5,5" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}"
+                                                Header="ID" Width="SizeToHeader"
+                                                IsReadOnly="True"/>
+                            <DataGridTextColumn Binding="{Binding Number}"
+                                                Header="№" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Type}"
+                                                Header="Тип" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Address}"
+                                                Header="Адреса" Width="3*"/>
+                            <DataGridTextColumn Binding="{Binding EmployeesCount, Mode=OneWay}"
+                                                Header="Працівників" Width="SizeToHeader"
+                                                IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Відділи">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="departmentDataGrid" AutoGenerateColumns="False"
+                              EnableColumnVirtualization="True"
+                              ItemsSource="{Binding Source={StaticResource departmentViewSource}}"
+                              Margin="5,5,5,5" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}"
+                                                Header="ID" Width="SizeToHeader"
+                                                IsReadOnly="True"/>
+                            <DataGridTextColumn Binding="{Binding Name}"
+                                                Header="Назва" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Employees.Count, Mode=OneWay}"
+                                                Header="Працівників" Width="SizeToHeader"
+                                                IsReadOnly="True"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Працівники">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid x:Name="employeeDataGrid" AutoGenerateColumns="False"
+                              EnableColumnVirtualization="True"
+                              ItemsSource="{Binding Source={StaticResource employeeViewSource}}"
+                              Margin="5,5,5,5" RowDetailsVisibilityMode="VisibleWhenSelected">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Id}"
+                                                Header="ID" Width="SizeToHeader"
+                                                IsReadOnly="True"/>
+                            <DataGridTextColumn Binding="{Binding FirstName}"
+                                                Header="Імʼя" Width="2*"/>
+                            <DataGridTextColumn Binding="{Binding LastName}"
+                                                Header="Прізвище" Width="2*"/>
+                            <DataGridTextColumn Binding="{Binding BirthYear}"
+                                                Header="Рік народження" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Position}"
+                                                Header="Посада" Width="2*"/>
+                            <DataGridTextColumn Binding="{Binding Experience}"
+                                                Header="Стаж" Width="*"/>
+                            <DataGridTextColumn Binding="{Binding Salary}"
+                                                Header="Зарплата" Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <DockPanel Grid.Row="1" LastChildFill="False">
+            <Button x:Name="statisticsBtn" DockPanel.Dock="Left" Content="Статистика" Margin="5,5,5,5" Click="statisticsBtn_Click"/>
+            <Button x:Name="filterBtn" DockPanel.Dock="Left" Content="Пошук (фільтр)" Margin="5,5,5,5" Click="filterBtn_Click"/>
+            <Button x:Name="exportBtn" DockPanel.Dock="Right" Content="Експортувати (CSV)" Margin="5,5,5,5" Click="exportBtn_Click"/>
+            <Button x:Name="saveBtn" DockPanel.Dock="Right" Content="Зберегти" Margin="5,5,5,5" Click="saveBtn_Click"/>
+        </DockPanel>
+    </Grid>
+</Window>
