@@ -1,11 +1,15 @@
 # Видалити всі бінарники
-find . -iname "bin" -printf '"%p"\n' | xargs -r rm -rv
-find . -iname "obj" -printf '"%p"\n' | xargs -r rm -rv
-find . -iname "out" -printf '"%p"\n' | xargs -r rm -rv
-find . -iname "cmake-build-debug" -printf '"%p"\n' | xargs -r rm -rv
+for name in 'bin' 'obj' 'out' 'cmake-build-debug'; do
+    find . -name '.venv' -prune -o -type d -iname "$name" -prune -exec rm -rv {} \;
+done
 
 # Перевірити та записати поточні версії компіляторів
-sed -i "3s/.*/_Скомпільовані на C++\/GCC $(c++ -dumpfullversion), C#\/.NET Core 7.0.203 (C#\/.NET Framework 7.0.401) та Java\/OpenJDK $(java --version | head -1 | cut -f2 -d' ')._/" README.md
+cppVersion=$(c++ -dumpfullversion)
+dotCoreVersion='7.0.203'
+dotNetVersion='7.0.401'
+javaVersion=$(java --version | head -n1 | cut -f2 -d' ')
+pythonVersion=$(python --version | cut -f2 -d' ')
+sed -i "3s/.*/_Виконані на C++\/GCC $cppVersion, C#\/.NET Core $dotCoreVersion (C#\/.NET Framework $dotNetVersion), Java\/OpenJDK $javaVersion, Python\/CPython $pythonVersion._ /" README.md
 
 # Запис на GitHub репозиторій
 git status
