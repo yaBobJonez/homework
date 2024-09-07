@@ -1,5 +1,5 @@
 # Видалити всі бінарники
-for name in 'bin' 'obj' 'out' 'cmake-build-debug'; do
+for name in 'bin' 'obj' 'out' 'cmake-build-debug' '__pycache__'; do
     find . -name '.venv' -prune -o -type d -iname "$name" -prune -exec rm -rv {} \;
 done
 
