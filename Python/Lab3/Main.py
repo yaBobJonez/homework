@@ -5,11 +5,13 @@ ifn = input("Введіть шлях до файлу з текстом: ")
 ofn = input("Введіть шлях вихідного файлу: ")
 try:
     with open(ifn, "r") as f:
-        text = f.read()
-    words = [word.upper() if len(word) > 2 else word for word in text.split()]
-    text = " ".join(words)
+        lines = f.readlines()
+    for i in range(len(lines)):
+        words = lines[i].split()
+        words = [word.upper() if len(word) > 2 else word for word in words]
+        lines[i] = " ".join(words) + "\n"
     with open(ofn, "x") as f:
-        f.write(text)
+        f.writelines(lines)
     print("Успішно записано.")
 except FileNotFoundError:
     print(f"Неможливо знайти файл {ifn}.", file=sys.stderr)
