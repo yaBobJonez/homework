@@ -124,7 +124,8 @@
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tableLayoutPanel1.ColumnCount = 2;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -630,49 +631,49 @@
             // авіакомпаніїToolStripMenuItem
             // 
             this.авіакомпаніїToolStripMenuItem.Name = "авіакомпаніїToolStripMenuItem";
-            this.авіакомпаніїToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.авіакомпаніїToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.авіакомпаніїToolStripMenuItem.Text = "Авіакомпанії";
             this.авіакомпаніїToolStripMenuItem.Click += new System.EventHandler(this.авіакомпаніїToolStripMenuItem_Click);
             // 
             // рейсиToolStripMenuItem
             // 
             this.рейсиToolStripMenuItem.Name = "рейсиToolStripMenuItem";
-            this.рейсиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.рейсиToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.рейсиToolStripMenuItem.Text = "Рейси";
             this.рейсиToolStripMenuItem.Click += new System.EventHandler(this.рейсиToolStripMenuItem_Click);
             // 
             // пасажириToolStripMenuItem
             // 
             this.пасажириToolStripMenuItem.Name = "пасажириToolStripMenuItem";
-            this.пасажириToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.пасажириToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.пасажириToolStripMenuItem.Text = "Пасажири";
             this.пасажириToolStripMenuItem.Click += new System.EventHandler(this.пасажириToolStripMenuItem_Click);
             // 
             // літакиToolStripMenuItem
             // 
             this.літакиToolStripMenuItem.Name = "літакиToolStripMenuItem";
-            this.літакиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.літакиToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.літакиToolStripMenuItem.Text = "Літаки";
             this.літакиToolStripMenuItem.Click += new System.EventHandler(this.літакиToolStripMenuItem_Click);
             // 
             // обмеженняToolStripMenuItem
             // 
             this.обмеженняToolStripMenuItem.Name = "обмеженняToolStripMenuItem";
-            this.обмеженняToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.обмеженняToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.обмеженняToolStripMenuItem.Text = "Обмеження";
             this.обмеженняToolStripMenuItem.Click += new System.EventHandler(this.обмеженняToolStripMenuItem_Click);
             // 
             // місцяToolStripMenuItem
             // 
             this.місцяToolStripMenuItem.Name = "місцяToolStripMenuItem";
-            this.місцяToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.місцяToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.місцяToolStripMenuItem.Text = "Місця";
             this.місцяToolStripMenuItem.Click += new System.EventHandler(this.місцяToolStripMenuItem_Click);
             // 
             // послугиToolStripMenuItem
             // 
             this.послугиToolStripMenuItem.Name = "послугиToolStripMenuItem";
-            this.послугиToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.послугиToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.послугиToolStripMenuItem.Text = "Послуги";
             this.послугиToolStripMenuItem.Click += new System.EventHandler(this.послугиToolStripMenuItem_Click);
             // 
