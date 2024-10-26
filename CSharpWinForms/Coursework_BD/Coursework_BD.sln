@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coursework_BD", "Coursework_BD\Coursework_BD.csproj", "{172483A0-25DF-477D-A040-17D6E0203C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIComponents", "TempUI\UIComponents.csproj", "{9D2EB52D-C193-4D02-B5E4-1713D57D7A33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{172483A0-25DF-477D-A040-17D6E0203C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{172483A0-25DF-477D-A040-17D6E0203C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{172483A0-25DF-477D-A040-17D6E0203C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{172483A0-25DF-477D-A040-17D6E0203C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D2EB52D-C193-4D02-B5E4-1713D57D7A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D2EB52D-C193-4D02-B5E4-1713D57D7A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D2EB52D-C193-4D02-B5E4-1713D57D7A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D2EB52D-C193-4D02-B5E4-1713D57D7A33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6700DAE-EBC8-4D72-939F-2D26B2B2BDD0}
+	EndGlobalSection
+EndGlobal
