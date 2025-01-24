@@ -9,7 +9,8 @@ dotCoreVersion='7.0.203'
 dotNetVersion='7.0.401'
 javaVersion=$(java --version | head -n1 | cut -f2 -d' ')
 pythonVersion=$(python --version | cut -f2 -d' ')
-sed -i "3s/.*/_Виконані на C++\/GCC $cppVersion, C#\/.NET Core $dotCoreVersion (C#\/.NET Framework $dotNetVersion), Java\/OpenJDK $javaVersion, Python\/CPython $pythonVersion._ /" README.md
+matlabVersion='R2015b'
+sed -i "3s/.*/_Виконані на C++\/GCC $cppVersion, C#\/.NET Core $dotCoreVersion (C#\/.NET Framework $dotNetVersion), Java\/OpenJDK $javaVersion, Python\/CPython $pythonVersion, MATLAB $matlabVersion._ /" README.md
 
 # Запис на GitHub репозиторій
 git status
