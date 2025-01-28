@@ -1,8 +1,3 @@
-# Видалити всі бінарники
-for name in 'bin' 'obj' 'out' 'cmake-build-debug' '__pycache__'; do
-    find . -name '.venv' -prune -o -type d -iname "$name" -prune -exec rm -rv {} \;
-done
-
 # Перевірити та записати поточні версії компіляторів
 cppVersion=$(c++ -dumpfullversion)
 dotCoreVersion='7.0.203'

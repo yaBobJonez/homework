@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">PMP_Lab1</string>
+    <string name="last_name">Stetsiuk</string>
+    <string name="star_desc">A blue and yellow five-pointed star.</string>
+    <string name="flag">🚩</string>
+</resources>

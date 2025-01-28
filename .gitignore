@@ -1,0 +1,5 @@
+bin/
+obj/
+out/
+cmake-build-debug/
+__pycache__/
