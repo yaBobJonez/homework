@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">PMP_Lab2_calc</string>
+    <string name="syntax_error">Syntax error</string>
+</resources>

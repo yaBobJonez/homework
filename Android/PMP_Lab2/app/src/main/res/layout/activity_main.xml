@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <EditText
+            android:id="@+id/expr_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:hint="0"
+            android:inputType="none"
+            android:enabled="false"
+            android:textSize="48sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_clear"
+                style="@style/calc_button"
+                android:onClick="actionClear"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/btn_lpar"
+                android:text="("
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_rpar"
+                android:text=")"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_bksp"
+                android:text="⌫"
+                android:onClick="actionBackspace"
+                style="@style/calc_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_7"
+                android:text="7"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_8"
+                android:text="8"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_9"
+                android:text="9"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_div"
+                android:text="÷"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_4"
+                android:text="4"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_5"
+                android:text="5"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_6"
+                android:text="6"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_mul"
+                android:text="×"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_1"
+                android:text="1"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_2"
+                android:text="2"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_3"
+                android:text="3"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_sub"
+                android:text="-"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/btn_point"
+                android:text="."
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_0"
+                android:text="0"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_run"
+                android:text="="
+                android:onClick="actionEvaluate"
+                style="@style/calc_button" />
+
+            <Button
+                android:id="@+id/btn_add"
+                android:text="+"
+                android:onClick="actionAddSymbol"
+                style="@style/calc_button" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
